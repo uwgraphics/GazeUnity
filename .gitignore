@@ -1,0 +1,7 @@
+LEAP/Library
+LEAP/obj
+LEAP/Temp
+*.csproj
+*.unityproj
+*.sln
+*.suo

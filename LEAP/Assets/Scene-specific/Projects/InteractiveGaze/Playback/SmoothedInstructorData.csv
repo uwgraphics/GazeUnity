@@ -1,0 +1,329 @@
+Track,Label,Start,End
+transcript,k um,555,1313
+transcript,I would like to have the,2455,4125
+transcript,light green lettuce,4125,5430
+transcript,placed on the bread,5430,6642
+transcript,tomato closest to me on my left,10719,13947
+transcript,I'd like to have the,18524,19630
+transcript,the sw- cheese,20583,21982
+transcript,"with holes in it, yes",23092,24888
+transcript,can I...,27971,28392
+transcript,purple blob,28392,29401
+transcript,whatever that is,29401,30722
+transcript,ok,31616,32170
+transcript,I'll have that ,34403,35610
+transcript,red ketchup splatter thing,35610,38276
+transcript,I'll have the ,42475,43774
+transcript,square cheese,43774,44905
+transcript,I will have the ,49560,50826
+transcript,the,51864,52965
+transcript,white circle,53800,55376
+transcript,not sure what that is,55376,56896
+transcript,to your left,56896,57863
+transcript,yes,57863,58531
+transcript,and then,61662,62434
+transcript,bacon please,63543,65089
+transcript,"on my left side, your right",67255,69736
+transcript,Yes,69736,70286
+transcript,May I also have the,72823,73627
+transcript,egg on it,73627,74580
+transcript,"that meat which is on my right, your left",78097,82655
+transcript,yep,83054,83507
+transcript,Can I have that,90255,91709
+transcript,other tomato,91709,92575
+transcript,on it,92575,93720
+transcript,throw the other,105782,106741
+transcript,bacon ,106741,107482
+transcript,on it I guess,107482,108473
+transcript,white um jelly thing,112990,115403
+transcript,pink circle closest to me,120160,122608
+transcript,the other pink circle,124793,126526
+reference,unambiguous,4125,5430
+reference,unambiguous,10719,13947
+reference,ambiguous,20583,21982
+reference,refinement,23092,24888
+reference,unambiguous,28392,29401
+reference,unambiguous,35610,38276
+reference,unambiguous,43774,44905
+reference,ambiguous,53800,55376
+reference,refinement,56896,57863
+reference,ambiguous,63543,65089
+reference,refinement,67255,69736
+reference,unambiguous,73627,74580
+reference,unambiguous,78097,82655
+reference,unambiguous,91709,92575
+reference,unambiguous,106741,107482
+reference,ambiguous,112990,115403
+reference,unambiguous,120160,122608
+reference,unambiguous,124793,126526
+object,Lettuce2,4125,5430
+object,Tomato1,10719,13947
+object,Cheese2,20583,21982
+object,Cheese2,23092,24888
+object,Jelly,28392,29401
+object,Ketchup,35610,38276
+object,Cheese1,43774,44905
+object,WhiteCircle,53800,55376
+object,WhiteCircle,56896,57863
+object,Bacon1,63543,65089
+object,Bacon1,67255,69736
+object,Egg,73627,74580
+object,BrownCircle,78097,82655
+object,Tomato2,91709,92575
+object,Bacon2,106741,107482
+object,Mayo,112990,115403
+object,PinkCircle1,120160,122608
+object,PinkCircle2,124793,126526
+Gaze_Objects,Onions,-1397,-1099
+Gaze_Objects,Pickles2,-1099,-899
+Gaze_Objects,Cookie,-899,-200
+Gaze_Objects,Lettuce2,-67,1463
+Gaze_Objects,BrownBlob,1463,1765
+Gaze_Objects,Cookie,1765,1964
+Gaze_Objects,Egg,1964,2195
+Gaze_Objects,Lettuce1,2195,2496
+Gaze_Objects,Cookie,2496,2927
+Gaze_Objects,Lettuce2,2927,4093
+Gaze_Objects,Cookie,4193,4493
+Gaze_Objects,Lettuce2,4493,4961
+Gaze_Objects,Lettuce2,5490,6589
+Gaze_Objects,Bacon1,7119,7718
+Gaze_Objects,Tomato1,7718,7918
+Gaze_Objects,PinkCircle1,7918,8218
+Gaze_Objects,Mayo,8218,8716
+Gaze_Objects,Egg,8716,9016
+Gaze_Objects,Cookie,9016,9649
+Gaze_Objects,BrownCircle,10148,10614
+Gaze_Objects,Cookie,10614,10880
+Gaze_Objects,BrownBlob,10880,11346
+Gaze_Objects,Tomato1,11511,11811
+Gaze_Objects,Bacon1,11811,12544
+Gaze_Objects,Tomato1,13607,14539
+Gaze_Objects,Ketchup,15604,15970
+Gaze_Objects,BrownBlob,15970,16475
+Gaze_Objects,Cookie,16669,16935
+Gaze_Objects,Egg,16935,17500
+Gaze_Objects,Cookie,17500,18299
+Gaze_Objects,BrownBlob,18299,18499
+Gaze_Objects,Cookie,18499,18898
+Gaze_Objects,BrownCircle,18898,19031
+Gaze_Objects,Cookie,19031,19297
+Gaze_Objects,BrownBlob,19297,19763
+Gaze_Objects,Mayo,19763,19996
+Gaze_Objects,Cookie,19996,21028
+Gaze_Objects,Onions,21028,21262
+Gaze_Objects,Cookie,21262,21393
+Gaze_Objects,Cheese2,21393,21559
+Gaze_Objects,Onions,21559,22193
+Gaze_Objects,Cookie,22259,22990
+Gaze_Objects,Cheese2,22990,23889
+Gaze_Objects,Pickles3,23889,24088
+Gaze_Objects,Cheese2,24088,24322
+Gaze_Objects,Ketchup,24322,24524
+Gaze_Objects,Ketchup,25054,25652
+Gaze_Objects,Bacon1,25652,25819
+Gaze_Objects,Ketchup,25819,26949
+Gaze_Objects,Egg,26949,27118
+Gaze_Objects,Cookie,27118,27515
+Gaze_Objects,BrownBlob,27515,28115
+Gaze_Objects,BrownBlob,28580,29114
+Gaze_Objects,Jelly,29346,29950
+Gaze_Objects,Jelly,30211,30576
+Gaze_Objects,Ketchup,31774,31974
+Gaze_Objects,Ketchup,32340,32875
+Gaze_Objects,Pickles1,33471,34037
+Gaze_Objects,BrownCircle,34138,34637
+Gaze_Objects,Cookie,35701,35967
+Gaze_Objects,Ketchup,35967,37498
+Gaze_Objects,Pickles3,37498,38062
+Gaze_Objects,Ketchup,38062,38895
+Gaze_Objects,BrownBlob,39196,39526
+Gaze_Objects,Cookie,39526,39859
+Gaze_Objects,Egg,39859,40426
+Gaze_Objects,BrownCircle,40426,41157
+Gaze_Objects,Cheese1,41157,41789
+Gaze_Objects,Egg,41789,42056
+Gaze_Objects,Bacon2,42056,42494
+Gaze_Objects,Egg,42494,42720
+Gaze_Objects,Mayo,42720,42922
+Gaze_Objects,Cheese1,42922,43386
+Gaze_Objects,Egg,43386,43952
+Gaze_Objects,Lettuce1,44084,44252
+Gaze_Objects,Cheese1,44252,45948
+Gaze_Objects,Mayo,45948,46282
+Gaze_Objects,PinkCircle1,46282,46513
+Gaze_Objects,Mayo,46513,46913
+Gaze_Objects,PinkCircle1,46913,47147
+Gaze_Objects,Mayo,47147,47378
+Gaze_Objects,BrownBlob,47378,47845
+Gaze_Objects,PinkCircle1,47845,48179
+Gaze_Objects,Bacon1,48179,48311
+Gaze_Objects,BrownBlob,48311,48577
+Gaze_Objects,PinkCircle1,48577,48811
+Gaze_Objects,Bacon1,48811,48943
+Gaze_Objects,Cookie,48943,49508
+Gaze_Objects,Egg,49508,49679
+Gaze_Objects,Cookie,49679,49841
+Gaze_Objects,Egg,49841,50672
+Gaze_Objects,Pickles2,50672,50906
+Gaze_Objects,Egg,50906,51205
+Gaze_Objects,Onions,51205,51471
+Gaze_Objects,Bacon2,51471,51671
+Gaze_Objects,BrownCircle,51671,52269
+Gaze_Objects,Egg,52269,52469
+Gaze_Objects,Bacon2,52469,53370
+Gaze_Objects,Tomato2,53370,53767
+Gaze_Objects,Bacon2,53767,54433
+Gaze_Objects,BrownCircle,54466,54833
+Gaze_Objects,Bacon2,54833,55666
+Gaze_Objects,WhiteCircle,55666,56362
+Gaze_Objects,Mustard,56362,56695
+Gaze_Objects,WhiteCircle,56695,57461
+Gaze_Objects,WhiteCircle,57462,58292
+Gaze_Objects,BrownCircle,58292,58624
+Gaze_Objects,Bacon2,58624,59257
+Gaze_Objects,Pickles3,59293,59922
+Gaze_Objects,Cookie,59922,60488
+Gaze_Objects,Egg,60488,60821
+Gaze_Objects,BrownCircle,60821,61886
+Gaze_Objects,Egg,62085,62420
+Gaze_Objects,Cookie,62420,62588
+Gaze_Objects,BrownBlob,62588,63150
+Gaze_Objects,Bacon1,63150,63682
+Gaze_Objects,Bacon1,64248,64781
+Gaze_Objects,Bacon1,65013,65545
+Gaze_Objects,BrownBlob,65545,66080
+Gaze_Objects,Egg,66177,66677
+Gaze_Objects,Bacon1,66943,67578
+Gaze_Objects,Bacon1,69504,70171
+Gaze_Objects,Egg,70869,71534
+Gaze_Objects,Cookie,71534,71933
+Gaze_Objects,Egg,71933,72201
+Gaze_Objects,BrownCircle,72201,72634
+Gaze_Objects,Egg,72634,73365
+Gaze_Objects,Pickles2,73365,73664
+Gaze_Objects,Cookie,73664,73963
+Gaze_Objects,Egg,73963,75194
+Gaze_Objects,Mayo,75194,75427
+Gaze_Objects,Cookie,75427,76027
+Gaze_Objects,BrownBlob,76361,76825
+Gaze_Objects,BrownCircle,76857,77556
+Gaze_Objects,Lettuce1,77556,77822
+Gaze_Objects,BrownCircle,77822,78388
+Gaze_Objects,Lettuce1,78388,78654
+Gaze_Objects,BrownCircle,78654,79886
+Gaze_Objects,Lettuce1,79886,80419
+Gaze_Objects,BrownCircle,80419,80917
+Gaze_Objects,Bacon2,80917,81848
+Gaze_Objects,BrownCircle,81848,83048
+Gaze_Objects,Bacon2,83048,83246
+Gaze_Objects,Cookie,84543,84943
+Gaze_Objects,BrownBlob,84943,85242
+Gaze_Objects,Cookie,85242,85509
+Gaze_Objects,BrownBlob,85509,85675
+Gaze_Objects,Cookie,85675,85942
+Gaze_Objects,BrownBlob,85942,86409
+Gaze_Objects,Pickles3,86474,86740
+Gaze_Objects,BrownBlob,86740,87206
+Gaze_Objects,Mayo,87206,87471
+Gaze_Objects,PinkCircle1,87471,87771
+Gaze_Objects,Cookie,87771,88071
+Gaze_Objects,Onions,88071,88236
+Gaze_Objects,Bacon2,88236,88472
+Gaze_Objects,Pickles2,88472,88703
+Gaze_Objects,Cookie,88703,89035
+Gaze_Objects,Bacon2,89035,89268
+Gaze_Objects,Lettuce1,89268,89900
+Gaze_Objects,Bacon2,89900,90136
+Gaze_Objects,Pickles1,90136,91099
+Gaze_Objects,Cookie,91297,91698
+Gaze_Objects,Bacon2,91698,91997
+Gaze_Objects,Tomato2,91997,92232
+Gaze_Objects,Bacon2,92232,92930
+Gaze_Objects,Tomato2,92930,93261
+Gaze_Objects,Bacon2,93261,93794
+Gaze_Objects,Pickles2,101613,102112
+Gaze_Objects,Onions,102211,102410
+Gaze_Objects,Bacon2,102410,102644
+Gaze_Objects,Pickles2,102644,102976
+Gaze_Objects,Mustard,102976,103176
+Gaze_Objects,Onions,103176,103375
+Gaze_Objects,Pickles2,103375,103575
+Gaze_Objects,Pickles1,103575,104076
+Gaze_Objects,Bacon2,104107,104673
+Gaze_Objects,Pickles2,104673,104873
+Gaze_Objects,Cookie,104873,105473
+Gaze_Objects,Cookie,105905,106503
+Gaze_Objects,Bacon2,106836,107369
+Gaze_Objects,Bacon2,107735,108367
+Gaze_Objects,Cookie,108865,109298
+Gaze_Objects,BrownBlob,109298,109464
+Gaze_Objects,Pickles3,109464,110198
+Gaze_Objects,BrownBlob,110198,110529
+Gaze_Objects,Mayo,110529,111294
+Gaze_Objects,PinkCircle1,111294,111496
+Gaze_Objects,Mayo,111496,111628
+Gaze_Objects,Cookie,111628,112296
+Gaze_Objects,Mayo,112459,112658
+Gaze_Objects,PinkCircle1,112658,112858
+Gaze_Objects,Mayo,112858,113756
+Gaze_Objects,Cookie,113756,114022
+Gaze_Objects,Mayo,114022,114589
+Gaze_Objects,Mayo,114624,116751
+Gaze_Objects,PinkCircle1,117322,117721
+Gaze_Objects,BrownBlob,117721,117982
+Gaze_Objects,Cookie,117982,118981
+Gaze_Objects,BrownBlob,118981,119313
+Gaze_Objects,Pickles2,119313,120145
+Gaze_Objects,PinkCircle1,120145,120876
+Gaze_Objects,BrownBlob,120876,121176
+Gaze_Objects,PinkCircle1,121176,121475
+Gaze_Objects,BrownBlob,121475,122141
+Gaze_Objects,PinkCircle1,122141,123305
+Gaze_Objects,Onions,124537,124743
+Gaze_Objects,Pickles2,124743,125003
+Gaze_Objects,PinkCircle2,125003,127198
+Gaze_Objects,Cookie,127198,127464
+Gaze_Objects,Pickles3,127464,127831
+Gaze_Objects,Pickles2,130327,130958
+Gaze_Objects,Pickles1,133054,133255
+Gaze_Objects,Onions,133255,133755
+Gaze_Objects,Mustard,133886,134286
+Gaze_Objects,Pickles3,134286,134584
+Gaze_Objects,Cookie,134584,135117
+Gaze_Objects,BrownBlob,136815,137080
+Gaze_Objects,Pickles3,139242,139542
+Gaze_Objects,Pickles3,141142,141438
+Gaze_Objects,Pickles3,149757,150690
+Gaze_Objects,Pickles2,155846,156112
+Gaze_Person,Body,129295,129994
+Gaze_Person,Body,130958,132223
+Gaze_Person,Body,136250,136749
+Gaze_Person,Body,142304,144602
+Gaze_Person,Body,145065,146696
+Gaze_Person,Body,147429,147895
+Gaze_Person,Body,150821,151421
+Gaze_Person,Body,151487,152153
+Gaze_Person,Body,152684,153850
+Gaze_Person,Face,153850,154220
+Gaze_Person,Body,154220,155147
+Gaze_Target,Bread,14539,15604
+Gaze_Target,Bread,24524,25054
+Gaze_Target,Bread,30077,30211
+Gaze_Target,Bread,30576,31211
+Gaze_Target,Bread,31974,32340
+Gaze_Target,Bread,38927,39196
+Gaze_Target,Bread,63682,64248
+Gaze_Target,Bread,70203,70670
+Gaze_Target,Bread,83246,83812
+Gaze_Target,Bread,94059,95193
+Gaze_Target,Bread,98518,101380
+Gaze_Target,Bread,116751,117322
+Gaze_Target,Bread,123305,123772
+Gaze_Target,Bread,127831,128363
+Gaze_Target,Bread,128465,129063
+Gaze_Target,Bread,137080,139242
+Gaze_Target,Bread,139542,141142
+Gaze_Target,Bread,141438,142272
+Gaze_Target,Bread,148292,149025
+Gaze_Target,Bread,149225,149757

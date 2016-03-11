@@ -1,0 +1,2632 @@
+11:09:14.1747	Speech Start:	intro
+11:09:34.3465	Speech End:	intro
+11:09:34.8461	Condition:	NoGazeProduction
+
+11:09:34.8491	Sandwich Start:	1_BS
+11:09:34.8491	Speech Start:	1_BS_intro
+11:09:37.2681	Speech End:	1_BS_intro
+11:09:37.2691	Reference-Action Sequence Start:	1
+11:09:37.2731	Reference Object:	5
+11:09:37.2741	Ambiguous Objects:	7
+11:09:37.2761	Phase Start:	PreReference
+11:09:37.2921	User Speech:	clarify:That cheese:0.9475616
+
+11:09:37.2931	User Gaze Shift:	19
+11:09:37.2941	Mutual Gaze Start
+11:09:38.2833	Speech Start:	1_BS_PreReference_1
+11:09:39.6224	User Gaze Shift:	0
+11:09:39.6234	Mutual Gaze End:	2350.90946685523ms
+11:09:40.2460	Speech End:	1_BS_PreReference_1
+11:09:40.2470	Phase Start:	Reference
+11:09:40.2470	Speech Start:	1_BS_Reference_1
+11:09:40.2630	User Gaze Shift:	19
+11:09:40.2630	Mutual Gaze Start
+11:09:41.1126	User Gaze Shift:	0
+11:09:41.1126	Mutual Gaze End:	866.25393293798ms
+11:09:41.4679	User Gaze Shift:	8
+11:09:41.6030	User Gaze Shift:	2
+11:09:41.7401	User Gaze Shift:	7
+11:09:42.3006	Speech End:	1_BS_Reference_1
+11:09:42.8099	Phase Start:	Monitor
+11:09:43.6015	User Gaze Shift:	0
+11:09:43.8498	User Gaze Shift:	11
+11:09:44.1070	User Gaze Shift:	5
+11:09:44.1070	Heuristic:	Monitor - Reference After Reference
+11:09:44.2721	User Gaze Shift:	11
+11:09:44.4913	Wrong Action Performed:	7	2189.7449ms
+11:09:44.4943	Wrong Action-Triggered Refinement
+11:09:44.4943	Phase Start:	Refinement
+11:09:44.4943	Speech Start:	wrong1
+11:09:44.5093	User Gaze Shift:	12
+11:09:46.7211	User Gaze Shift:	11
+11:09:46.8362	User Gaze Shift:	0
+11:09:47.1064	User Gaze Shift:	7
+11:09:47.2575	User Gaze Shift:	8
+11:09:47.4948	User Gaze Shift:	7
+11:09:48.9650	Speech End:	wrong1
+11:09:48.9650	Speech Start:	1_BS_Refinement_1
+11:09:49.2322	User Gaze Shift:	8
+11:09:49.3513	User Gaze Shift:	0
+11:09:49.4834	User Gaze Shift:	4
+11:09:49.6046	User Gaze Shift:	5
+11:09:50.6653	Speech End:	1_BS_Refinement_1
+11:09:51.1677	Phase Start:	Monitor
+11:09:51.2357	User Gaze Shift:	12
+11:09:52.2576	User Gaze Shift:	11
+11:09:52.5921	User Gaze Shift:	12
+11:09:52.6581	Correct Action Performed:	1	10356.5562ms
+11:09:52.6591	Phase Start:	Action
+11:09:52.8773	User Gaze Shift:	10
+11:09:52.8773	Heuristic:	Action - Object after Object
+11:09:52.8783	Agent Gaze to Other:	10
+11:09:52.9934	User Gaze Shift:	16
+11:09:52.9934	Heuristic:	Action - Object after Object
+11:09:52.9944	Agent Gaze to Other:	16
+11:09:53.1095	User Gaze Shift:	15
+11:09:53.1095	Heuristic:	Action - Object after Object
+11:09:53.1104	Agent Gaze to Other:	15
+11:09:53.2456	User Gaze Shift:	0
+11:09:53.4948	User Gaze Shift:	19
+11:09:53.4948	Mutual Gaze Start
+11:09:53.4958	Heuristic:	Action - User and Target After Agent
+11:09:54.6628	Reference-Action Sequence End:	1
+11:09:54.6628	Reference-Action Sequence Start:	2
+11:09:54.6628	Reference Object:	10
+11:09:54.6628	Ambiguous Objects:	
+11:09:54.6628	Phase Start:	PreReference
+11:09:55.6656	Speech Start:	1_BS_PreReference_2
+11:09:56.3651	User Gaze Shift:	0
+11:09:56.3651	Mutual Gaze End:	2886.14049553871ms
+11:09:56.7374	User Gaze Shift:	12
+11:09:57.1307	User Gaze Shift:	18
+11:09:57.3148	User Gaze Shift:	0
+11:09:57.4190	User Gaze Shift:	16
+11:09:57.5171	User Gaze Shift:	19
+11:09:57.5181	Mutual Gaze Start
+11:09:57.9784	Speech End:	1_BS_PreReference_2
+11:09:57.9784	Phase Start:	Reference
+11:09:57.9794	Speech Start:	1_BS_Reference_2
+11:09:58.9601	Speech End:	1_BS_Reference_2
+11:09:59.3655	User Gaze Shift:	0
+11:09:59.3655	Mutual Gaze End:	1861.21691949666ms
+11:09:59.4656	Phase Start:	Monitor
+11:09:59.9059	User Gaze Shift:	10
+11:09:59.9059	Heuristic:	Monitor - Reference After Reference
+11:10:00.2432	User Gaze Shift:	9
+11:10:00.3773	User Gaze Shift:	0
+11:10:00.4944	User Gaze Shift:	2
+11:10:00.6125	User Gaze Shift:	1
+11:10:00.7455	User Gaze Shift:	0
+11:10:00.8466	User Gaze Shift:	11
+11:10:00.9997	User Gaze Shift:	10
+11:10:00.9997	Heuristic:	Monitor - Reference After Reference
+11:10:01.2840	User Gaze Shift:	4
+11:10:01.4181	User Gaze Shift:	10
+11:10:01.4181	Heuristic:	Monitor - Reference After Reference
+11:10:02.4940	User Gaze Shift:	11
+11:10:02.6331	User Gaze Shift:	12
+11:10:02.7512	User Gaze Shift:	0
+11:10:02.8683	User Gaze Shift:	12
+11:10:03.6208	User Gaze Shift:	6
+11:10:03.7119	Correct Action Performed:	2	4750.7079ms
+11:10:03.7119	Phase Start:	Action
+11:10:03.7439	User Gaze Shift:	12
+11:10:03.7439	Heuristic:	Action - Target After Target
+11:10:04.0101	User Gaze Shift:	16
+11:10:04.0101	Heuristic:	Action - Object after Object
+11:10:04.0101	Agent Gaze to Other:	16
+11:10:04.2653	User Gaze Shift:	10
+11:10:04.3713	User Gaze Shift:	16
+11:10:04.3713	Heuristic:	Action - Object after Object
+11:10:04.3713	Agent Gaze to Other:	16
+11:10:04.5344	User Gaze Shift:	17
+11:10:04.5344	Heuristic:	Action - Object after Object
+11:10:04.5344	Agent Gaze to Other:	17
+11:10:04.7356	User Gaze Shift:	18
+11:10:04.7356	Heuristic:	Action - Object after Object
+11:10:04.7356	Agent Gaze to Other:	18
+11:10:04.8557	User Gaze Shift:	0
+11:10:05.0068	User Gaze Shift:	19
+11:10:05.0068	Mutual Gaze Start
+11:10:05.0068	Heuristic:	Action - User and Target After Agent
+11:10:05.7254	Reference-Action Sequence End:	2
+11:10:05.7264	Reference-Action Sequence Start:	3
+11:10:05.7264	Reference Object:	11
+11:10:05.7264	Ambiguous Objects:	
+11:10:05.7264	Phase Start:	PreReference
+11:10:06.7372	User Gaze Shift:	0
+11:10:06.7372	Mutual Gaze End:	1749.64661989361ms
+11:10:06.7372	Speech Start:	1_BS_PreReference_3
+11:10:06.8693	User Gaze Shift:	19
+11:10:06.8703	Mutual Gaze Start
+11:10:08.1563	Speech End:	1_BS_PreReference_3
+11:10:08.1563	Phase Start:	Reference
+11:10:08.1563	Speech Start:	1_BS_Reference_3
+11:10:09.1340	Speech End:	1_BS_Reference_3
+11:10:09.3692	User Gaze Shift:	0
+11:10:09.3692	Mutual Gaze End:	2515.88351652026ms
+11:10:09.6394	Phase Start:	Monitor
+11:10:09.9957	User Gaze Shift:	11
+11:10:09.9957	Heuristic:	Monitor - Reference After Reference
+11:10:10.3829	User Gaze Shift:	5
+11:10:10.5001	User Gaze Shift:	11
+11:10:10.5011	Heuristic:	Monitor - Reference After Reference
+11:10:11.6260	User Gaze Shift:	12
+11:10:12.1344	User Gaze Shift:	6
+11:10:12.2515	User Gaze Shift:	12
+11:10:12.4186	Correct Action Performed:	3	3284.5644ms
+11:10:12.4196	Phase Start:	Action
+11:10:13.6146	User Gaze Shift:	15
+11:10:13.6156	Heuristic:	Action - Object after Object
+11:10:13.6156	Agent Gaze to Other:	15
+11:10:13.7537	User Gaze Shift:	0
+11:10:13.9890	User Gaze Shift:	19
+11:10:13.9890	Mutual Gaze Start
+11:10:13.9890	Heuristic:	Action - User and Target After Agent
+11:10:14.4233	Reference-Action Sequence End:	3
+11:10:14.4233	Reference-Action Sequence Start:	4
+11:10:14.4233	Reference Object:	2
+11:10:14.4233	Ambiguous Objects:	17
+11:10:14.4233	Phase Start:	PreReference
+11:10:15.4400	Speech Start:	1_BS_PreReference_4
+11:10:16.5199	Speech End:	1_BS_PreReference_4
+11:10:16.5199	Phase Start:	Reference
+11:10:16.5199	Speech Start:	1_BS_Reference_4
+11:10:17.2585	Speech End:	1_BS_Reference_4
+11:10:17.3776	User Gaze Shift:	0
+11:10:17.3786	Mutual Gaze End:	3409.99971702695ms
+11:10:17.7471	User Gaze Shift:	16
+11:10:17.7641	Phase Start:	Monitor
+11:10:17.8812	User Gaze Shift:	17
+11:10:17.8812	Heuristic:	Monitor - Reference After Ambiguous
+11:10:18.0163	User Gaze Shift:	5
+11:10:18.1184	User Gaze Shift:	0
+11:10:18.2334	User Gaze Shift:	3
+11:10:18.3836	User Gaze Shift:	2
+11:10:18.3846	Heuristic:	Monitor - Reference After Reference
+11:10:18.8739	User Gaze Shift:	4
+11:10:19.2453	User Gaze Shift:	10
+11:10:19.5125	User Gaze Shift:	11
+11:10:19.7697	User Gaze Shift:	17
+11:10:19.7697	Heuristic:	Monitor - Reference After Ambiguous
+11:10:20.0049	User Gaze Shift:	11
+11:10:20.1209	User Gaze Shift:	17
+11:10:20.1220	Heuristic:	Monitor - Reference After Ambiguous
+11:10:20.6434	User Gaze Shift:	11
+11:10:20.9956	User Gaze Shift:	17
+11:10:20.9956	Heuristic:	Monitor - Reference After Ambiguous
+11:10:21.1007	User Gaze Shift:	0
+11:10:21.6431	User Gaze Shift:	12
+11:10:22.0135	Refinement Due to Gaze at Ambiguous Object
+11:10:22.0285	Gaze-Triggered Refinement
+11:10:22.0305	Phase Start:	Refinement
+11:10:22.0315	Speech Start:	refine1
+11:10:22.2128	Wrong Action Performed:	17	4954.2476ms
+11:10:22.2138	Wrong Action-Triggered Refinement
+11:10:22.2138	Phase Start:	Refinement
+11:10:22.2138	Speech Start:	wrong2
+11:10:24.1554	User Gaze Shift:	17
+11:10:24.3795	User Gaze Shift:	12
+11:10:24.5337	User Gaze Shift:	17
+11:10:25.2422	User Gaze Shift:	16
+11:10:25.3772	User Gaze Shift:	0
+11:10:25.6335	User Gaze Shift:	2
+11:10:26.3941	User Gaze Shift:	9
+11:10:26.4951	User Gaze Shift:	0
+11:10:26.4951	Speech End:	wrong2
+11:10:26.4951	Speech Start:	1_BS_Refinement_4
+11:10:26.6473	User Gaze Shift:	16
+11:10:26.7653	User Gaze Shift:	17
+11:10:27.0365	User Gaze Shift:	11
+11:10:27.3908	User Gaze Shift:	12
+11:10:28.2325	Correct Action Performed:	4	10974.018ms
+11:10:28.2335	Phase Start:	Action
+11:10:28.3346	Speech End:	1_BS_Refinement_4
+11:10:28.3346	Speech End:	refine1
+11:10:28.3356	Speech Start:	1_BS_Refinement_4
+11:10:28.8380	Phase Start:	Monitor
+11:10:29.0381	User Gaze Shift:	6
+11:10:29.2584	User Gaze Shift:	12
+11:10:30.0051	User Gaze Shift:	6
+11:10:30.1903	Speech End:	1_BS_Refinement_4
+11:10:30.2414	User Gaze Shift:	12
+11:10:30.2414	Reference-Action Sequence End:	4
+11:10:30.2414	Reference-Action Sequence Start:	5
+11:10:30.2424	Reference Object:	3
+11:10:30.2424	Ambiguous Objects:	14
+11:10:30.2424	Phase Start:	PreReference
+11:10:30.5236	User Gaze Shift:	9
+11:10:30.6267	User Gaze Shift:	0
+11:10:30.6958	Phase Start:	Monitor
+11:10:31.0170	User Gaze Shift:	19
+11:10:31.0180	Mutual Gaze Start
+11:10:31.0180	Heuristic:	Monitor - User After Agent
+11:10:31.2562	Speech Start:	1_BS_PreReference_5
+11:10:32.0688	Speech End:	1_BS_PreReference_5
+11:10:32.0688	Phase Start:	Reference
+11:10:32.0688	Speech Start:	1_BS_Reference_5
+11:10:33.0265	Refinement Due to Gaze at Agent
+11:10:33.4989	Speech End:	1_BS_Reference_5
+11:10:33.5159	User Gaze Shift:	0
+11:10:33.5179	Mutual Gaze End:	2514.65555187315ms
+11:10:34.0022	Phase Start:	Monitor
+11:10:34.0192	Gaze-Triggered Refinement
+11:10:34.0192	Phase Start:	Refinement
+11:10:34.0192	Speech Start:	refine2
+11:10:34.1223	User Gaze Shift:	14
+11:10:34.5596	User Gaze Shift:	3
+11:10:34.6737	Speech End:	refine2
+11:10:34.6748	Speech Start:	1_BS_Refinement_5
+11:10:35.3835	User Gaze Shift:	9
+11:10:35.6546	User Gaze Shift:	8
+11:10:35.8888	User Gaze Shift:	3
+11:10:36.3862	Speech End:	1_BS_Refinement_5
+11:10:36.8936	Phase Start:	Monitor
+11:10:37.2650	User Gaze Shift:	4
+11:10:37.5182	User Gaze Shift:	11
+11:10:37.6162	User Gaze Shift:	12
+11:10:38.4750	User Gaze Shift:	0
+11:10:38.6411	Correct Action Performed:	5	5142.2526ms
+11:10:38.6421	Phase Start:	Action
+11:10:39.2606	User Gaze Shift:	12
+11:10:39.2615	Heuristic:	Action - Target After Target
+11:10:39.7800	User Gaze Shift:	17
+11:10:39.7810	Heuristic:	Action - Object after Object
+11:10:39.7810	Agent Gaze to Other:	17
+11:10:39.8821	User Gaze Shift:	0
+11:10:40.1483	User Gaze Shift:	19
+11:10:40.1503	Mutual Gaze Start
+11:10:40.1503	Heuristic:	Action - User and Target After Agent
+11:10:40.6537	Reference-Action Sequence End:	5
+11:10:40.6537	Reference-Action Sequence Start:	6
+11:10:40.6537	Reference Object:	16
+11:10:40.6537	Ambiguous Objects:	1
+11:10:40.6547	Phase Start:	PreReference
+11:10:41.1732	User Gaze Shift:	0
+11:10:41.1732	Mutual Gaze End:	1041.16407036781ms
+11:10:41.2734	User Gaze Shift:	19
+11:10:41.2744	Mutual Gaze Start
+11:10:41.6637	Speech Start:	1_BS_PreReference_6
+11:10:42.4416	Speech End:	1_BS_PreReference_6
+11:10:42.4416	Phase Start:	Reference
+11:10:42.4416	Speech Start:	1_BS_Reference_6
+11:10:43.2985	Speech End:	1_BS_Reference_6
+11:10:43.6368	User Gaze Shift:	0
+11:10:43.6378	Mutual Gaze End:	2380.82285318524ms
+11:10:43.8049	Phase Start:	Monitor
+11:10:43.8910	User Gaze Shift:	16
+11:10:43.8910	Heuristic:	Monitor - Reference After Reference
+11:10:44.2584	User Gaze Shift:	10
+11:10:44.3746	User Gaze Shift:	0
+11:10:44.5437	User Gaze Shift:	9
+11:10:44.6437	User Gaze Shift:	2
+11:10:44.7578	User Gaze Shift:	0
+11:10:44.8919	User Gaze Shift:	1
+11:10:44.8929	Heuristic:	Monitor - Reference After Ambiguous
+11:10:45.4095	User Gaze Shift:	10
+11:10:45.8959	User Gaze Shift:	17
+11:10:45.8979	Refinement Due to Gaze at Ambiguous Object
+11:10:45.9109	Gaze-Triggered Refinement
+11:10:45.9119	Phase Start:	Refinement
+11:10:45.9119	Speech Start:	refine1
+11:10:46.0790	User Gaze Shift:	16
+11:10:46.4644	Speech End:	refine1
+11:10:46.4653	Speech Start:	1_BS_Refinement_6
+11:10:47.7635	User Gaze Shift:	17
+11:10:47.7985	User Speech:	clarify:This cheese:0.9208991
+
+11:10:47.9017	User Gaze Shift:	0
+11:10:48.1540	Speech End:	1_BS_Refinement_6
+11:10:48.6566	Phase Start:	Monitor
+11:10:49.0619	Correct Action Performed:	6	5763.3935ms
+11:10:49.0619	Phase Start:	Action
+11:10:50.3930	User Gaze Shift:	12
+11:10:50.3930	Heuristic:	Action - Target After Target
+11:10:50.6293	User Gaze Shift:	17
+11:10:50.6293	Heuristic:	Action - Object after Object
+11:10:50.6293	Agent Gaze to Other:	17
+11:10:51.0656	Reference-Action Sequence End:	6
+11:10:51.0656	Reference-Action Sequence Start:	7
+11:10:51.0656	Reference Object:	18
+11:10:51.0656	Ambiguous Objects:	4,13
+11:10:51.0656	Phase Start:	PreReference
+11:10:51.1656	User Gaze Shift:	18
+11:10:51.2828	User Gaze Shift:	16
+11:10:51.5350	User Gaze Shift:	0
+11:10:51.7542	User Gaze Shift:	19
+11:10:51.7542	Mutual Gaze Start
+11:10:52.0754	Speech Start:	1_BS_PreReference_7
+11:10:53.9469	Speech End:	1_BS_PreReference_7
+11:10:53.9479	Phase Start:	Reference
+11:10:53.9479	Speech Start:	1_BS_Reference_7
+11:10:54.6374	Speech End:	1_BS_Reference_7
+11:10:55.0187	User Gaze Shift:	0
+11:10:55.0187	Mutual Gaze End:	3283.00965297967ms
+11:10:55.1388	Phase Start:	Monitor
+11:10:55.8724	User Gaze Shift:	4
+11:10:55.8734	Heuristic:	Monitor - Reference After Ambiguous
+11:10:56.6590	User Gaze Shift:	11
+11:10:56.7730	User Gaze Shift:	12
+11:10:56.8731	Refinement Due to Gaze at Ambiguous Object
+11:10:56.8901	Gaze-Triggered Refinement
+11:10:56.8901	Phase Start:	Refinement
+11:10:56.8901	Speech Start:	refine2
+11:10:56.8921	User Gaze Shift:	18
+11:10:57.0413	User Gaze Shift:	9
+11:10:57.1434	User Gaze Shift:	8
+11:10:57.5327	User Gaze Shift:	14
+11:10:57.5457	Speech End:	refine2
+11:10:57.5457	Speech Start:	1_BS_Refinement_7
+11:10:57.9010	User Gaze Shift:	17
+11:10:58.1511	User Gaze Shift:	18
+11:10:59.6152	Speech End:	1_BS_Refinement_7
+11:11:00.1196	Phase Start:	Monitor
+11:11:00.6431	User Gaze Shift:	12
+11:11:01.6329	Correct Action Performed:	7	6994.4699ms
+11:11:01.6329	Phase Start:	Action
+11:11:02.9179	User Gaze Shift:	18
+11:11:03.0350	User Gaze Shift:	0
+11:11:03.3914	User Gaze Shift:	19
+11:11:03.3914	Mutual Gaze Start
+11:11:03.3914	Heuristic:	Action - User and Target After Agent
+11:11:03.6436	Reference-Action Sequence End:	7
+11:11:03.6446	Reference-Action Sequence Start:	8
+11:11:03.6446	Reference Object:	8
+11:11:03.6446	Ambiguous Objects:	
+11:11:03.6446	Phase Start:	PreReference
+11:11:04.6474	Speech Start:	1_BS_PreReference_8
+11:11:05.2379	Speech End:	1_BS_PreReference_8
+11:11:05.2379	Phase Start:	Reference
+11:11:05.2389	Speech Start:	1_BS_Reference_8
+11:11:05.6552	User Gaze Shift:	0
+11:11:05.6552	Mutual Gaze End:	2283.16319175065ms
+11:11:05.7743	User Gaze Shift:	19
+11:11:05.7753	Mutual Gaze Start
+11:11:06.1626	Speech End:	1_BS_Reference_8
+11:11:06.5479	User Gaze Shift:	0
+11:11:06.5489	Mutual Gaze End:	790.951495058835ms
+11:11:06.6640	Phase Start:	Monitor
+11:11:07.1654	User Gaze Shift:	8
+11:11:07.1664	Heuristic:	Monitor - Reference After Reference
+11:11:08.5215	User Gaze Shift:	9
+11:11:08.6246	User Gaze Shift:	0
+11:11:08.9089	User Gaze Shift:	12
+11:11:09.3102	Correct Action Performed:	8	3147.5725ms
+11:11:09.3112	Phase Start:	Action
+11:11:09.3973	User Gaze Shift:	0
+11:11:10.7705	User Gaze Shift:	12
+11:11:10.7715	Heuristic:	Action - Target After Target
+11:11:11.2868	User Gaze Shift:	18
+11:11:11.3218	Reference-Action Sequence End:	8
+11:11:11.3218	Reference-Action Sequence Start:	9
+11:11:11.3218	Reference Object:	4
+11:11:11.3218	Ambiguous Objects:	13
+11:11:11.3218	Phase Start:	PreReference
+11:11:11.4039	User Gaze Shift:	12
+11:11:11.5361	User Gaze Shift:	8
+11:11:11.6392	User Gaze Shift:	0
+11:11:11.7713	User Gaze Shift:	19
+11:11:11.7713	Mutual Gaze Start
+11:11:12.3277	Speech Start:	1_BS_PreReference_9
+11:11:12.7621	User Gaze Shift:	0
+11:11:12.7621	Mutual Gaze End:	1007.64564797282ms
+11:11:12.9142	Speech End:	1_BS_PreReference_9
+11:11:12.9142	Phase Start:	Reference
+11:11:12.9152	Speech Start:	1_BS_Reference_9
+11:11:12.9312	User Gaze Shift:	19
+11:11:12.9322	Mutual Gaze Start
+11:11:14.0291	User Gaze Shift:	0
+11:11:14.0301	Mutual Gaze End:	1115.98696559668ms
+11:11:14.2182	Speech End:	1_BS_Reference_9
+11:11:14.7217	Phase Start:	Monitor
+11:11:15.0389	User Gaze Shift:	9
+11:11:15.1600	User Gaze Shift:	8
+11:11:15.4071	User Gaze Shift:	14
+11:11:15.6583	User Gaze Shift:	4
+11:11:15.6593	Heuristic:	Monitor - Reference After Reference
+11:11:16.1468	User Gaze Shift:	2
+11:11:16.2999	User Gaze Shift:	8
+11:11:16.5331	User Gaze Shift:	3
+11:11:16.6502	User Gaze Shift:	11
+11:11:16.7683	User Gaze Shift:	13
+11:11:16.7683	Heuristic:	Monitor - Reference After Ambiguous
+11:11:16.8824	User Gaze Shift:	12
+11:11:17.0525	User Gaze Shift:	11
+11:11:17.4248	User Gaze Shift:	12
+11:11:17.7780	User Gaze Shift:	6
+11:11:17.7800	Refinement Due to Gaze at Ambiguous Object
+11:11:17.7940	Gaze-Triggered Refinement
+11:11:17.7940	Phase Start:	Refinement
+11:11:17.7950	Speech Start:	refine1
+11:11:18.1513	User Gaze Shift:	12
+11:11:18.3564	Speech End:	refine1
+11:11:18.3564	Speech Start:	1_BS_Refinement_9
+11:11:18.6446	User Gaze Shift:	6
+11:11:18.8138	User Gaze Shift:	12
+11:11:19.1350	Correct Action Performed:	9	4916.7777ms
+11:11:19.1350	Phase Start:	Action
+11:11:20.7783	Speech End:	1_BS_Refinement_9
+11:11:21.1506	Reference-Action Sequence End:	9
+11:11:21.1506	Reference-Action Sequence Start:	10
+11:11:21.1506	Reference Object:	7
+11:11:21.1506	Ambiguous Objects:	
+11:11:21.1506	Phase Start:	PreReference
+11:11:21.2867	Phase Start:	Monitor
+11:11:21.6600	User Gaze Shift:	16
+11:11:21.7751	User Gaze Shift:	15
+11:11:21.8953	User Gaze Shift:	14
+11:11:22.0305	User Gaze Shift:	13
+11:11:22.1656	Speech Start:	1_BS_PreReference_10
+11:11:22.4187	User Gaze Shift:	0
+11:11:22.5268	User Gaze Shift:	19
+11:11:22.5278	Mutual Gaze Start
+11:11:22.5278	Heuristic:	Monitor - User After Agent
+11:11:22.9803	Speech End:	1_BS_PreReference_10
+11:11:22.9813	Phase Start:	Reference
+11:11:22.9813	Speech Start:	1_BS_Reference_10
+11:11:24.1671	User Gaze Shift:	0
+11:11:24.1682	Mutual Gaze End:	1662.08234522492ms
+11:11:24.2712	User Gaze Shift:	13
+11:11:24.3863	User Gaze Shift:	7
+11:11:24.5394	Refinement Due to Gaze at Agent
+11:11:24.5554	User Gaze Shift:	8
+11:11:24.8427	User Gaze Shift:	19
+11:11:24.8437	Mutual Gaze Start
+11:11:24.8908	Speech End:	1_BS_Reference_10
+11:11:24.9398	User Gaze Shift:	7
+11:11:24.9398	Mutual Gaze End:	118.820166215301ms
+11:11:25.3942	Phase Start:	Monitor
+11:11:25.4102	Gaze-Triggered Refinement
+11:11:25.4102	Phase Start:	Refinement
+11:11:25.4112	Speech Start:	refine2
+11:11:26.0657	Speech End:	refine2
+11:11:26.0667	Speech Start:	1_BS_Refinement_10
+11:11:26.1518	User Gaze Shift:	8
+11:11:26.2879	User Gaze Shift:	0
+11:11:26.6582	User Gaze Shift:	11
+11:11:26.7743	User Gaze Shift:	12
+11:11:27.2977	User Gaze Shift:	0
+11:11:27.4478	Correct Action Performed:	10	2555.9986ms
+11:11:27.4478	Phase Start:	Action
+11:11:27.7480	Speech End:	1_BS_Refinement_10
+11:11:28.2554	Phase Start:	Monitor
+11:11:28.8988	User Gaze Shift:	12
+11:11:29.0469	User Gaze Shift:	10
+11:11:29.2842	User Gaze Shift:	9
+11:11:29.4513	Reference-Action Sequence End:	10
+11:11:29.4513	Reference-Action Sequence Start:	11
+11:11:29.4513	Reference Object:	13
+11:11:29.4513	Ambiguous Objects:	
+11:11:29.4513	Phase Start:	PreReference
+11:11:29.5354	User Gaze Shift:	15
+11:11:29.6525	User Gaze Shift:	19
+11:11:29.6535	Mutual Gaze Start
+11:11:30.4561	Speech Start:	1_BS_PreReference_11
+11:11:32.8449	Speech End:	1_BS_PreReference_11
+11:11:32.8449	Phase Start:	Reference
+11:11:32.8449	Speech Start:	1_BS_Reference_11
+11:11:33.7879	User Gaze Shift:	0
+11:11:33.7879	Mutual Gaze End:	4152.47365832329ms
+11:11:33.9240	User Gaze Shift:	19
+11:11:33.9240	Mutual Gaze Start
+11:11:34.0261	Speech End:	1_BS_Reference_11
+11:11:34.5295	Phase Start:	Monitor
+11:11:34.9177	User Gaze Shift:	0
+11:11:34.9177	Mutual Gaze End:	1009.62449237704ms
+11:11:35.2880	User Gaze Shift:	13
+11:11:35.2880	Heuristic:	Monitor - Reference After Reference
+11:11:36.4459	User Gaze Shift:	0
+11:11:37.2685	User Gaze Shift:	12
+11:11:37.4156	User Gaze Shift:	0
+11:11:37.4336	Correct Action Performed:	11	3407.509ms
+11:11:37.4336	Phase Start:	Action
+11:11:37.5657	User Gaze Shift:	12
+11:11:37.5667	Heuristic:	Action - Target After Target
+11:11:37.6689	User Gaze Shift:	0
+11:11:39.2823	User Gaze Shift:	19
+11:11:39.2833	Mutual Gaze Start
+11:11:39.2833	Heuristic:	Action - User and Target After Agent
+11:11:39.4515	Reference-Action Sequence End:	11
+11:11:39.4515	Reference-Action Sequence Start:	12
+11:11:39.4515	Reference Object:	1
+11:11:39.4515	Ambiguous Objects:	
+11:11:39.4515	Phase Start:	PreReference
+11:11:40.0570	User Gaze Shift:	0
+11:11:40.0570	Mutual Gaze End:	789.978506974876ms
+11:11:40.1891	User Gaze Shift:	19
+11:11:40.1901	Mutual Gaze Start
+11:11:40.4583	Speech Start:	1_BS_PreReference_12
+11:11:41.3020	User Gaze Shift:	0
+11:11:41.3020	Mutual Gaze End:	1128.75503487885ms
+11:11:41.4220	User Gaze Shift:	19
+11:11:41.4220	Mutual Gaze Start
+11:11:42.0596	Speech End:	1_BS_PreReference_12
+11:11:42.0596	Phase Start:	Reference
+11:11:42.0596	Speech Start:	1_BS_Reference_12
+11:11:42.8862	Speech End:	1_BS_Reference_12
+11:11:43.1554	User Gaze Shift:	0
+11:11:43.1554	Mutual Gaze End:	1752.6596384123ms
+11:11:43.3915	Phase Start:	Monitor
+11:11:43.8119	User Gaze Shift:	7
+11:11:43.9130	User Gaze Shift:	0
+11:11:44.0461	User Gaze Shift:	1
+11:11:44.0461	Heuristic:	Monitor - Reference After Reference
+11:11:44.7027	User Gaze Shift:	9
+11:11:44.8168	User Gaze Shift:	0
+11:11:45.1710	User Gaze Shift:	12
+11:11:45.6744	Correct Action Performed:	12	2788.278ms
+11:11:45.6755	Phase Start:	Action
+11:11:45.7745	User Gaze Shift:	0
+11:11:47.5721	User Gaze Shift:	19
+11:11:47.5721	Mutual Gaze Start
+11:11:47.5721	Heuristic:	Action - User and Target After Agent
+11:11:47.6912	Reference-Action Sequence End:	12
+11:11:47.6912	Speech Start:	1_BS_outro
+11:11:51.1922	Speech End:	1_BS_outro
+11:11:51.1932	Sandwich End:	1_BS
+
+
+11:18:24.0197	Speech Start:	intro
+11:18:44.1746	Speech End:	intro
+11:18:44.6760	Condition:	None
+
+11:18:44.6770	Sandwich Start:	2_TS
+11:18:44.6770	Speech Start:	2_TS_intro
+11:18:47.0694	Speech End:	2_TS_intro
+11:18:47.0694	Reference-Action Sequence Start:	1
+11:18:47.0704	Reference Object:	13
+11:18:47.0704	Ambiguous Objects:	4
+11:18:47.0704	Phase Start:	PreReference
+11:18:47.0855	User Speech:	clarify:How about this lettuce:0.8975357
+
+11:18:47.0855	User Gaze Shift:	0
+11:18:47.0855	Mutual Gaze End:	3652.06168033183ms
+11:18:47.3356	User Gaze Shift:	8
+11:18:47.4567	User Gaze Shift:	0
+11:18:47.5859	User Gaze Shift:	8
+11:18:47.7069	User Gaze Shift:	2
+11:18:47.8410	User Gaze Shift:	3
+11:18:47.9732	User Gaze Shift:	2
+11:18:48.0733	Speech Start:	2_TS_PreReference_1
+11:18:48.1083	User Gaze Shift:	1
+11:18:48.2284	User Gaze Shift:	3
+11:18:48.4606	User Gaze Shift:	4
+11:18:48.5787	User Gaze Shift:	5
+11:18:48.9860	User Gaze Shift:	12
+11:18:49.1021	User Gaze Shift:	11
+11:18:49.5875	User Gaze Shift:	4
+11:18:49.7416	User Gaze Shift:	11
+11:18:49.9568	User Gaze Shift:	0
+11:18:50.0239	Speech End:	2_TS_PreReference_1
+11:18:50.0239	Phase Start:	Reference
+11:18:50.0249	Speech Start:	2_TS_Reference_1
+11:18:50.0949	User Gaze Shift:	17
+11:18:50.4291	User Speech:	clarify:How's this?:0.9435288
+
+11:18:50.4832	User Gaze Shift:	9
+11:18:50.6504	User Gaze Shift:	10
+11:18:50.7324	User Gaze Shift:	9
+11:18:50.7524	Speech End:	2_TS_Reference_1
+11:18:50.8635	User Gaze Shift:	10
+11:18:51.0837	User Gaze Shift:	9
+11:18:51.2198	User Gaze Shift:	4
+11:18:51.2528	Phase Start:	Monitor
+11:18:51.6010	User Gaze Shift:	8
+11:18:51.7361	User Gaze Shift:	9
+11:18:51.8362	User Gaze Shift:	14
+11:18:51.9873	User Gaze Shift:	13
+11:18:52.2396	User Gaze Shift:	3
+11:18:52.3547	User Gaze Shift:	0
+11:18:52.4738	User Gaze Shift:	4
+11:18:52.5909	User Gaze Shift:	9
+11:18:52.7270	User Gaze Shift:	0
+11:18:52.9972	User Gaze Shift:	19
+11:18:52.9972	Mutual Gaze Start
+11:18:53.4696	User Gaze Shift:	0
+11:18:53.4696	Mutual Gaze End:	492.591035552323ms
+11:18:53.7188	User Gaze Shift:	13
+11:18:54.1721	User Speech:	clarify:Which one:0.9459946
+
+11:18:54.1721	Speech-Triggered Refinement
+11:18:54.1721	Phase Start:	Refinement
+11:18:54.1721	Speech Start:	refine1
+11:18:54.5934	User Gaze Shift:	19
+11:18:54.5934	Mutual Gaze Start
+11:18:54.7276	User Gaze Shift:	0
+11:18:54.7276	Mutual Gaze End:	152.718756347895ms
+11:18:54.7276	Speech End:	refine1
+11:18:54.7276	Speech Start:	2_TS_Refinement_1
+11:18:55.4671	User Gaze Shift:	16
+11:18:55.6203	User Gaze Shift:	10
+11:18:55.7233	User Gaze Shift:	0
+11:18:55.8214	User Gaze Shift:	4
+11:18:56.1067	User Gaze Shift:	8
+11:18:56.2258	User Gaze Shift:	0
+11:18:56.3400	User Gaze Shift:	13
+11:18:56.5762	Speech End:	2_TS_Refinement_1
+11:18:57.0825	Phase Start:	Monitor
+11:18:57.0985	User Gaze Shift:	0
+11:18:57.2306	User Gaze Shift:	13
+11:18:57.7201	User Gaze Shift:	0
+11:18:58.0843	User Gaze Shift:	11
+11:18:58.2164	User Gaze Shift:	12
+11:18:58.4696	Correct Action Performed:	1	7717.1784ms
+11:18:58.4706	Phase Start:	Action
+11:18:58.5858	User Gaze Shift:	0
+11:18:59.4736	User Gaze Shift:	12
+11:18:59.5907	User Gaze Shift:	17
+11:18:59.7238	User Gaze Shift:	11
+11:18:59.8399	User Gaze Shift:	10
+11:18:59.9790	User Gaze Shift:	16
+11:19:00.0950	User Gaze Shift:	10
+11:19:00.4844	Reference-Action Sequence End:	1
+11:19:00.4854	Reference-Action Sequence Start:	2
+11:19:00.4854	Reference Object:	9
+11:19:00.4854	Ambiguous Objects:	
+11:19:00.4854	Phase Start:	PreReference
+11:19:01.2241	User Gaze Shift:	14
+11:19:01.3253	User Gaze Shift:	19
+11:19:01.3253	Mutual Gaze Start
+11:19:01.4944	Speech Start:	2_TS_PreReference_2
+11:19:02.1550	Speech End:	2_TS_PreReference_2
+11:19:02.1550	Phase Start:	Reference
+11:19:02.1550	Speech Start:	2_TS_Reference_2
+11:19:02.8448	User Gaze Shift:	0
+11:19:02.8448	Mutual Gaze End:	1537.78587561101ms
+11:19:03.2361	User Gaze Shift:	19
+11:19:03.2361	Mutual Gaze Start
+11:19:03.3341	User Gaze Shift:	0
+11:19:03.3351	Mutual Gaze End:	117.688692174852ms
+11:19:03.5374	Speech End:	2_TS_Reference_2
+11:19:03.7226	User Gaze Shift:	9
+11:19:03.9899	User Gaze Shift:	4
+11:19:04.0400	Phase Start:	Monitor
+11:19:04.0940	User Gaze Shift:	9
+11:19:04.9787	User Gaze Shift:	11
+11:19:05.0969	User Gaze Shift:	0
+11:19:05.1990	User Gaze Shift:	12
+11:19:05.5693	Correct Action Performed:	2	2030.8806ms
+11:19:05.5693	Phase Start:	Action
+11:19:05.6003	User Gaze Shift:	0
+11:19:06.4720	User Gaze Shift:	18
+11:19:06.7702	User Gaze Shift:	17
+11:19:07.1235	User Gaze Shift:	16
+11:19:07.4737	User Gaze Shift:	0
+11:19:07.5768	Reference-Action Sequence End:	2
+11:19:07.5768	Reference-Action Sequence Start:	3
+11:19:07.5768	Reference Object:	14
+11:19:07.5768	Ambiguous Objects:	15
+11:19:07.5778	Phase Start:	PreReference
+11:19:07.5918	User Gaze Shift:	19
+11:19:07.5918	Mutual Gaze Start
+11:19:07.7259	User Gaze Shift:	0
+11:19:07.7259	Mutual Gaze End:	150.609358213842ms
+11:19:07.9771	User Gaze Shift:	19
+11:19:07.9781	Mutual Gaze Start
+11:19:08.3624	User Gaze Shift:	0
+11:19:08.3634	Mutual Gaze End:	404.385068453848ms
+11:19:08.4825	User Gaze Shift:	19
+11:19:08.4825	Mutual Gaze Start
+11:19:08.5806	Speech Start:	2_TS_PreReference_3
+11:19:08.7187	User Gaze Shift:	0
+11:19:08.7187	Mutual Gaze End:	253.130739554763ms
+11:19:08.8359	User Gaze Shift:	19
+11:19:08.8359	Mutual Gaze Start
+11:19:09.2883	Speech End:	2_TS_PreReference_3
+11:19:09.2893	Phase Start:	Reference
+11:19:09.2893	Speech Start:	2_TS_Reference_3
+11:19:09.6057	User Gaze Shift:	0
+11:19:09.6057	Mutual Gaze End:	788.821574300528ms
+11:19:09.7408	User Gaze Shift:	19
+11:19:09.7418	Mutual Gaze Start
+11:19:09.8568	User Gaze Shift:	0
+11:19:09.8578	Mutual Gaze End:	133.624135516584ms
+11:19:10.1070	User Gaze Shift:	19
+11:19:10.1070	Mutual Gaze Start
+11:19:10.3262	Speech End:	2_TS_Reference_3
+11:19:10.4763	User Gaze Shift:	0
+11:19:10.4773	Mutual Gaze End:	384.877439588308ms
+11:19:10.8265	Phase Start:	Monitor
+11:19:11.3460	User Gaze Shift:	2
+11:19:11.7263	User Gaze Shift:	9
+11:19:11.8594	User Gaze Shift:	15
+11:19:12.2609	User Gaze Shift:	11
+11:19:12.3639	User Gaze Shift:	0
+11:19:12.4820	User Gaze Shift:	11
+11:19:12.6321	User Gaze Shift:	16
+11:19:12.8683	User Gaze Shift:	15
+11:19:13.2517	User Gaze Shift:	10
+11:19:13.3677	User Gaze Shift:	8
+11:19:13.4868	User Gaze Shift:	2
+11:19:14.4477	User Gaze Shift:	9
+11:19:14.5467	User Gaze Shift:	15
+11:19:14.6348	User Gaze Shift:	9
+11:19:14.7499	User Gaze Shift:	15
+11:19:14.8680	User Gaze Shift:	9
+11:19:15.0211	User Gaze Shift:	15
+11:19:15.1202	User Gaze Shift:	0
+11:19:15.6276	User Gaze Shift:	15
+11:19:15.7116	User Gaze Shift:	0
+11:19:16.6003	User Gaze Shift:	12
+11:19:16.8395	User Gaze Shift:	0
+11:19:17.0406	Wrong Action Performed:	15	6714.4375ms
+11:19:17.0416	Wrong Action-Triggered Refinement
+11:19:17.0416	Phase Start:	Refinement
+11:19:17.0416	Speech Start:	wrong1
+11:19:17.7412	User Gaze Shift:	12
+11:19:18.2496	User Gaze Shift:	0
+11:19:19.3424	User Gaze Shift:	15
+11:19:19.8489	User Gaze Shift:	0
+11:19:20.4753	User Gaze Shift:	15
+11:19:20.6244	User Gaze Shift:	9
+11:19:20.7255	User Gaze Shift:	0
+11:19:20.8456	User Gaze Shift:	2
+11:19:21.5012	Speech End:	wrong1
+11:19:21.5022	Speech Start:	2_TS_Refinement_3
+11:19:21.6193	User Gaze Shift:	1
+11:19:21.7344	User Gaze Shift:	8
+11:19:21.9866	User Gaze Shift:	7
+11:19:22.2558	User Gaze Shift:	2
+11:19:22.7801	User Gaze Shift:	7
+11:19:22.8602	User Gaze Shift:	14
+11:19:23.0304	Speech End:	2_TS_Refinement_3
+11:19:23.5328	Phase Start:	Monitor
+11:19:23.7329	User Gaze Shift:	0
+11:19:23.8500	User Gaze Shift:	14
+11:19:24.3594	User Gaze Shift:	0
+11:19:25.3553	User Gaze Shift:	12
+11:19:25.4864	User Gaze Shift:	0
+11:19:25.7727	Correct Action Performed:	3	15446.5151ms
+11:19:25.7727	Phase Start:	Action
+11:19:26.5965	User Gaze Shift:	18
+11:19:26.8648	User Gaze Shift:	17
+11:19:27.1002	User Gaze Shift:	12
+11:19:27.7868	Reference-Action Sequence End:	3
+11:19:27.7868	Reference-Action Sequence Start:	4
+11:19:27.7878	Reference Object:	16
+11:19:27.7878	Ambiguous Objects:	
+11:19:27.7878	Phase Start:	PreReference
+11:19:27.8549	User Gaze Shift:	0
+11:19:28.2262	User Gaze Shift:	19
+11:19:28.2272	Mutual Gaze Start
+11:19:28.3413	User Gaze Shift:	0
+11:19:28.3413	Mutual Gaze End:	135.397708043456ms
+11:19:28.7296	User Gaze Shift:	19
+11:19:28.7296	Mutual Gaze Start
+11:19:28.7996	Speech Start:	2_TS_PreReference_4
+11:19:28.9978	User Gaze Shift:	0
+11:19:28.9978	Mutual Gaze End:	285.374411381781ms
+11:19:29.2509	User Gaze Shift:	19
+11:19:29.2509	Mutual Gaze Start
+11:19:30.4818	User Gaze Shift:	0
+11:19:30.4818	Mutual Gaze End:	1249.17265027761ms
+11:19:30.8011	Speech End:	2_TS_PreReference_4
+11:19:30.8021	Phase Start:	Reference
+11:19:30.8021	Speech Start:	2_TS_Reference_4
+11:19:31.1063	User Gaze Shift:	19
+11:19:31.1063	Mutual Gaze Start
+11:19:31.2224	User Gaze Shift:	0
+11:19:31.2224	Mutual Gaze End:	134.938304312527ms
+11:19:31.4736	User Gaze Shift:	19
+11:19:31.4746	Mutual Gaze Start
+11:19:31.8799	User Gaze Shift:	0
+11:19:31.8799	Mutual Gaze End:	422.13883344084ms
+11:19:31.9440	Speech End:	2_TS_Reference_4
+11:19:32.2972	User Gaze Shift:	15
+11:19:32.4013	User Gaze Shift:	0
+11:19:32.4523	Phase Start:	Monitor
+11:19:32.8566	User Gaze Shift:	2
+11:19:32.9897	User Gaze Shift:	0
+11:19:33.1058	User Gaze Shift:	9
+11:19:33.2449	User Gaze Shift:	10
+11:19:33.3591	User Gaze Shift:	4
+11:19:33.5102	User Gaze Shift:	10
+11:19:33.8495	User Gaze Shift:	16
+11:19:34.6452	User Gaze Shift:	12
+11:19:35.1195	User Gaze Shift:	0
+11:19:35.6540	Correct Action Performed:	4	3710.0648ms
+11:19:35.6550	Phase Start:	Action
+11:19:35.8571	User Gaze Shift:	12
+11:19:36.1254	User Gaze Shift:	18
+11:19:36.3786	User Gaze Shift:	0
+11:19:36.7469	User Gaze Shift:	19
+11:19:36.7469	Mutual Gaze Start
+11:19:37.6577	Reference-Action Sequence End:	4
+11:19:37.6577	Reference-Action Sequence Start:	5
+11:19:37.6577	Reference Object:	5
+11:19:37.6587	Ambiguous Objects:	8
+11:19:37.6587	Phase Start:	PreReference
+11:19:38.6596	Speech Start:	2_TS_PreReference_5
+11:19:38.8568	User Gaze Shift:	0
+11:19:38.8568	Mutual Gaze End:	2125.07486250252ms
+11:19:38.9909	User Gaze Shift:	19
+11:19:38.9919	Mutual Gaze Start
+11:19:39.7506	User Gaze Shift:	0
+11:19:39.7506	Mutual Gaze End:	773.742953315377ms
+11:19:39.7506	Speech End:	2_TS_PreReference_5
+11:19:39.7506	Phase Start:	Reference
+11:19:39.7506	Speech Start:	2_TS_Reference_5
+11:19:40.1169	User Gaze Shift:	19
+11:19:40.1179	Mutual Gaze Start
+11:19:40.5032	Speech End:	2_TS_Reference_5
+11:19:40.6394	User Gaze Shift:	0
+11:19:40.6394	Mutual Gaze End:	537.615493871272ms
+11:19:41.0067	Phase Start:	Monitor
+11:19:41.2539	User Gaze Shift:	8
+11:19:41.4891	User Gaze Shift:	0
+11:19:41.7733	User Gaze Shift:	5
+11:19:42.0035	User Gaze Shift:	12
+11:19:42.1216	User Gaze Shift:	10
+11:19:42.5049	User Gaze Shift:	9
+11:19:42.6050	User Gaze Shift:	8
+11:19:42.8743	User Gaze Shift:	7
+11:19:43.1104	User Gaze Shift:	1
+11:19:43.4267	User Speech:	clarify:Which cheese:0.9378433
+
+11:19:43.4267	Speech-Triggered Refinement
+11:19:43.4267	Phase Start:	Refinement
+11:19:43.4277	Speech Start:	refine2
+11:19:43.5278	User Gaze Shift:	7
+11:19:43.9983	User Gaze Shift:	19
+11:19:43.9983	Mutual Gaze Start
+11:19:44.0843	Speech End:	refine2
+11:19:44.0853	Speech Start:	2_TS_Refinement_5
+11:19:44.1013	User Gaze Shift:	0
+11:19:44.1013	Mutual Gaze End:	118.392375297844ms
+11:19:44.9261	User Gaze Shift:	14
+11:19:45.0262	User Gaze Shift:	8
+11:19:45.2473	User Gaze Shift:	9
+11:19:45.3484	User Gaze Shift:	0
+11:19:45.5035	User Gaze Shift:	4
+11:19:45.6377	Speech End:	2_TS_Refinement_5
+11:19:45.6537	User Gaze Shift:	5
+11:19:46.1441	User Gaze Shift:	12
+11:19:46.1451	Phase Start:	Monitor
+11:19:46.3793	User Gaze Shift:	0
+11:19:46.5155	User Gaze Shift:	12
+11:19:47.7724	Correct Action Performed:	5	7267.1682ms
+11:19:47.7734	Phase Start:	Action
+11:19:48.4911	User Gaze Shift:	18
+11:19:48.6242	User Gaze Shift:	17
+11:19:48.8584	User Gaze Shift:	12
+11:19:49.1115	User Gaze Shift:	18
+11:19:49.2446	User Gaze Shift:	0
+11:19:49.4788	User Gaze Shift:	19
+11:19:49.4798	Mutual Gaze Start
+11:19:49.7780	Reference-Action Sequence End:	5
+11:19:49.7780	Reference-Action Sequence Start:	6
+11:19:49.7780	Reference Object:	17
+11:19:49.7780	Ambiguous Objects:	
+11:19:49.7780	Phase Start:	PreReference
+11:19:49.8791	User Gaze Shift:	0
+11:19:49.8801	Mutual Gaze End:	416.419073939323ms
+11:19:50.0132	User Gaze Shift:	19
+11:19:50.0142	Mutual Gaze Start
+11:19:50.1323	User Gaze Shift:	0
+11:19:50.1333	Mutual Gaze End:	135.049972683191ms
+11:19:50.3645	User Gaze Shift:	19
+11:19:50.3645	Mutual Gaze Start
+11:19:50.4846	User Gaze Shift:	0
+11:19:50.4846	Mutual Gaze End:	134.29004792124ms
+11:19:50.6178	User Gaze Shift:	19
+11:19:50.6188	Mutual Gaze Start
+11:19:50.7839	Speech Start:	2_TS_PreReference_6
+11:19:51.6868	Speech End:	2_TS_PreReference_6
+11:19:51.6868	Phase Start:	Reference
+11:19:51.6868	Speech Start:	2_TS_Reference_6
+11:19:52.2602	User Gaze Shift:	0
+11:19:52.2602	Mutual Gaze End:	1660.33463831991ms
+11:19:52.8458	Speech End:	2_TS_Reference_6
+11:19:53.2430	User Gaze Shift:	16
+11:19:53.3631	User Gaze Shift:	17
+11:19:53.3631	Phase Start:	Monitor
+11:19:54.8723	User Gaze Shift:	12
+11:19:55.3557	User Gaze Shift:	0
+11:19:55.4248	Correct Action Performed:	6	2579.0115ms
+11:19:55.4258	Phase Start:	Action
+11:19:55.9962	User Gaze Shift:	17
+11:19:56.2645	User Gaze Shift:	16
+11:19:56.5136	User Gaze Shift:	15
+11:19:57.0000	User Gaze Shift:	14
+11:19:57.2852	User Gaze Shift:	0
+11:19:57.4353	Reference-Action Sequence End:	6
+11:19:57.4353	Reference-Action Sequence Start:	7
+11:19:57.4353	Reference Object:	3
+11:19:57.4353	Ambiguous Objects:	18
+11:19:57.4363	Phase Start:	PreReference
+11:19:58.2612	User Gaze Shift:	19
+11:19:58.2612	Mutual Gaze Start
+11:19:58.4453	Speech Start:	2_TS_PreReference_7
+11:20:00.3467	Speech End:	2_TS_PreReference_7
+11:20:00.3477	Phase Start:	Reference
+11:20:00.3477	Speech Start:	2_TS_Reference_7
+11:20:01.0322	Speech End:	2_TS_Reference_7
+11:20:01.1153	User Gaze Shift:	0
+11:20:01.1153	Mutual Gaze End:	2872.65192251652ms
+11:20:01.5356	Phase Start:	Monitor
+11:20:01.7368	User Gaze Shift:	3
+11:20:02.0041	User Gaze Shift:	4
+11:20:02.2544	User Gaze Shift:	11
+11:20:02.3875	User Gaze Shift:	18
+11:20:02.7569	User Gaze Shift:	4
+11:20:02.8780	User Gaze Shift:	3
+11:20:03.1423	User Gaze Shift:	8
+11:20:03.3764	User Gaze Shift:	10
+11:20:03.4937	User Gaze Shift:	0
+11:20:03.6119	User Gaze Shift:	18
+11:20:03.8621	User Gaze Shift:	4
+11:20:03.9982	User Gaze Shift:	3
+11:20:04.2934	User Gaze Shift:	4
+11:20:04.5006	User Gaze Shift:	11
+11:20:04.6166	User Gaze Shift:	9
+11:20:04.7698	User Gaze Shift:	8
+11:20:04.8738	User Gaze Shift:	7
+11:20:05.2461	User Gaze Shift:	13
+11:20:05.3952	User Gaze Shift:	7
+11:20:05.8837	User Gaze Shift:	13
+11:20:06.0028	User Gaze Shift:	0
+11:20:09.7448	User Speech:	clarify:Which pickle:0.9411907
+
+11:20:09.7458	Speech-Triggered Refinement
+11:20:09.7458	Phase Start:	Refinement
+11:20:09.7458	Speech Start:	refine1
+11:20:10.2533	User Gaze Shift:	19
+11:20:10.2533	Mutual Gaze Start
+11:20:10.3023	Speech End:	refine1
+11:20:10.3023	Speech Start:	2_TS_Refinement_7
+11:20:10.3723	User Gaze Shift:	0
+11:20:10.3723	Mutual Gaze End:	137.101484462619ms
+11:20:10.8578	User Gaze Shift:	9
+11:20:11.0109	User Gaze Shift:	4
+11:20:11.2481	User Gaze Shift:	11
+11:20:11.5163	User Gaze Shift:	12
+11:20:11.6314	User Gaze Shift:	4
+11:20:11.7656	User Gaze Shift:	0
+11:20:11.9027	User Gaze Shift:	3
+11:20:12.3572	Speech End:	2_TS_Refinement_7
+11:20:12.6425	User Gaze Shift:	10
+11:20:12.7596	User Gaze Shift:	0
+11:20:12.8606	User Gaze Shift:	12
+11:20:12.8617	Phase Start:	Monitor
+11:20:13.4973	User Gaze Shift:	0
+11:20:13.8665	User Gaze Shift:	12
+11:20:14.0987	Correct Action Performed:	7	13065.4648ms
+11:20:14.0987	Phase Start:	Action
+11:20:14.7713	User Gaze Shift:	15
+11:20:14.8874	User Gaze Shift:	16
+11:20:15.0035	User Gaze Shift:	15
+11:20:15.6591	User Gaze Shift:	10
+11:20:16.0144	User Gaze Shift:	16
+11:20:16.1144	Reference-Action Sequence End:	7
+11:20:16.1154	Reference-Action Sequence Start:	8
+11:20:16.1154	Reference Object:	8
+11:20:16.1154	Ambiguous Objects:	
+11:20:16.1154	Phase Start:	PreReference
+11:20:16.1304	User Gaze Shift:	19
+11:20:16.1314	Mutual Gaze Start
+11:20:16.2645	User Gaze Shift:	0
+11:20:16.2655	Mutual Gaze End:	151.605347171426ms
+11:20:17.0001	User Gaze Shift:	19
+11:20:17.0001	Mutual Gaze Start
+11:20:17.1163	Speech Start:	2_TS_PreReference_8
+11:20:17.9430	Speech End:	2_TS_PreReference_8
+11:20:17.9430	Phase Start:	Reference
+11:20:17.9440	Speech Start:	2_TS_Reference_8
+11:20:18.7456	User Gaze Shift:	0
+11:20:18.7456	Mutual Gaze End:	1761.23230345547ms
+11:20:19.2540	User Gaze Shift:	8
+11:20:19.2860	Speech End:	2_TS_Reference_8
+11:20:19.6373	User Gaze Shift:	4
+11:20:19.7754	User Gaze Shift:	0
+11:20:19.7914	Phase Start:	Monitor
+11:20:19.8755	User Gaze Shift:	5
+11:20:20.2437	User Gaze Shift:	12
+11:20:20.3629	User Gaze Shift:	18
+11:20:20.4439	User Gaze Shift:	11
+11:20:20.5450	User Gaze Shift:	10
+11:20:20.6461	User Gaze Shift:	9
+11:20:20.7652	User Gaze Shift:	8
+11:20:20.8813	User Gaze Shift:	2
+11:20:21.1315	User Gaze Shift:	8
+11:20:21.5519	User Gaze Shift:	15
+11:20:21.6369	User Gaze Shift:	16
+11:20:21.7370	User Gaze Shift:	0
+11:20:21.8881	User Gaze Shift:	12
+11:20:22.2574	User Gaze Shift:	0
+11:20:22.3415	Correct Action Performed:	8	3055.4709ms
+11:20:22.3415	Phase Start:	Action
+11:20:23.1142	User Gaze Shift:	9
+11:20:23.2503	User Gaze Shift:	7
+11:20:23.6505	User Gaze Shift:	0
+11:20:23.7506	User Gaze Shift:	16
+11:20:24.0348	User Gaze Shift:	17
+11:20:24.2570	User Gaze Shift:	18
+11:20:24.3581	Reference-Action Sequence End:	8
+11:20:24.3591	Reference-Action Sequence Start:	9
+11:20:24.3591	Reference Object:	1
+11:20:24.3591	Ambiguous Objects:	11
+11:20:24.3591	Phase Start:	PreReference
+11:20:24.7954	User Gaze Shift:	0
+11:20:24.8984	User Gaze Shift:	12
+11:20:25.2647	User Gaze Shift:	18
+11:20:25.3688	User Gaze Shift:	12
+11:20:25.3688	Speech Start:	2_TS_PreReference_9
+11:20:25.6540	User Gaze Shift:	17
+11:20:25.8902	User Gaze Shift:	0
+11:20:26.0243	User Gaze Shift:	19
+11:20:26.0253	Mutual Gaze Start
+11:20:26.2445	User Gaze Shift:	0
+11:20:26.2445	Mutual Gaze End:	237.5762835145ms
+11:20:26.2775	Speech End:	2_TS_PreReference_9
+11:20:26.2785	Phase Start:	Reference
+11:20:26.2785	Speech Start:	2_TS_Reference_9
+11:20:27.0521	Speech End:	2_TS_Reference_9
+11:20:27.5566	Phase Start:	Monitor
+11:20:27.8729	User Gaze Shift:	1
+11:20:28.6439	User Gaze Shift:	7
+11:20:28.8972	User Gaze Shift:	13
+11:20:28.9993	User Gaze Shift:	0
+11:20:29.2685	User Gaze Shift:	12
+11:20:29.6358	User Gaze Shift:	0
+11:20:29.9881	Correct Action Performed:	9	2935.9376ms
+11:20:29.9891	Phase Start:	Action
+11:20:30.3774	User Gaze Shift:	12
+11:20:31.3832	User Gaze Shift:	18
+11:20:31.6354	User Gaze Shift:	12
+11:20:32.0017	Reference-Action Sequence End:	9
+11:20:32.0017	Reference-Action Sequence Start:	10
+11:20:32.0017	Reference Object:	7
+11:20:32.0017	Ambiguous Objects:	
+11:20:32.0017	Phase Start:	PreReference
+11:20:32.0327	User Gaze Shift:	18
+11:20:32.1519	User Gaze Shift:	12
+11:20:32.7705	User Gaze Shift:	18
+11:20:33.0066	Speech Start:	2_TS_PreReference_10
+11:20:33.2578	User Gaze Shift:	17
+11:20:33.6271	User Gaze Shift:	0
+11:20:33.7612	User Gaze Shift:	19
+11:20:33.7612	Mutual Gaze Start
+11:20:34.6180	User Gaze Shift:	0
+11:20:34.6180	Mutual Gaze End:	872.276267968118ms
+11:20:34.8922	Speech End:	2_TS_PreReference_10
+11:20:34.8922	Phase Start:	Reference
+11:20:34.8922	Speech Start:	2_TS_Reference_10
+11:20:35.5268	User Gaze Shift:	19
+11:20:35.5268	Mutual Gaze Start
+11:20:35.8811	User Gaze Shift:	0
+11:20:35.8811	Mutual Gaze End:	369.055306538939ms
+11:20:36.3836	User Gaze Shift:	8
+11:20:36.5179	User Gaze Shift:	7
+11:20:36.5869	Speech End:	2_TS_Reference_10
+11:20:36.7562	User Gaze Shift:	2
+11:20:37.0225	User Gaze Shift:	10
+11:20:37.0886	Phase Start:	Monitor
+11:20:37.1236	User Gaze Shift:	0
+11:20:37.2727	User Gaze Shift:	11
+11:20:37.7781	User Gaze Shift:	17
+11:20:38.3726	User Gaze Shift:	18
+11:20:38.7561	User Gaze Shift:	12
+11:20:39.1384	User Gaze Shift:	0
+11:20:39.3065	Correct Action Performed:	10	2719.6187ms
+11:20:39.3065	Phase Start:	Action
+11:20:40.7156	User Gaze Shift:	19
+11:20:40.7166	Mutual Gaze Start
+11:20:41.3161	Reference-Action Sequence End:	10
+11:20:41.3171	Reference-Action Sequence Start:	11
+11:20:41.3171	Reference Object:	18
+11:20:41.3171	Ambiguous Objects:	
+11:20:41.3171	Phase Start:	PreReference
+11:20:41.6873	User Gaze Shift:	0
+11:20:41.6873	Mutual Gaze End:	988.809266127646ms
+11:20:42.2727	User Gaze Shift:	19
+11:20:42.2727	Mutual Gaze Start
+11:20:42.3228	Speech Start:	2_TS_PreReference_11
+11:20:43.8131	Speech End:	2_TS_PreReference_11
+11:20:43.8141	Phase Start:	Reference
+11:20:43.8141	Speech Start:	2_TS_Reference_11
+11:20:44.7758	User Gaze Shift:	0
+11:20:44.7758	Mutual Gaze End:	2520.80722525716ms
+11:20:44.8939	User Gaze Shift:	19
+11:20:44.8939	Mutual Gaze Start
+11:20:45.5144	User Gaze Shift:	0
+11:20:45.5154	Mutual Gaze End:	640.794575214386ms
+11:20:46.0169	User Gaze Shift:	18
+11:20:46.0179	Speech End:	2_TS_Reference_11
+11:20:46.5193	Phase Start:	Monitor
+11:20:46.7535	User Gaze Shift:	12
+11:20:47.1197	User Gaze Shift:	18
+11:20:47.2899	User Gaze Shift:	12
+11:20:48.6672	Correct Action Performed:	11	2649.2454ms
+11:20:48.6672	Phase Start:	Action
+11:20:49.0187	User Gaze Shift:	0
+11:20:49.5073	User Gaze Shift:	19
+11:20:49.5073	Mutual Gaze Start
+11:20:49.7745	User Gaze Shift:	0
+11:20:49.7745	Mutual Gaze End:	284.247455187142ms
+11:20:50.1449	User Gaze Shift:	19
+11:20:50.1449	Mutual Gaze Start
+11:20:50.2630	User Gaze Shift:	0
+11:20:50.2630	Mutual Gaze End:	134.950211271644ms
+11:20:50.6794	Reference-Action Sequence End:	11
+11:20:50.6794	Reference-Action Sequence Start:	12
+11:20:50.6804	Reference Object:	11
+11:20:50.6804	Ambiguous Objects:	
+11:20:50.6804	Phase Start:	PreReference
+11:20:51.6893	Speech Start:	2_TS_PreReference_12
+11:20:52.0246	User Gaze Shift:	19
+11:20:52.0256	Mutual Gaze Start
+11:20:52.1397	User Gaze Shift:	0
+11:20:52.1397	Mutual Gaze End:	133.449246175587ms
+11:20:52.7773	User Gaze Shift:	19
+11:20:52.7773	Mutual Gaze Start
+11:20:53.0146	User Gaze Shift:	0
+11:20:53.0155	Mutual Gaze End:	252.866756170988ms
+11:20:53.1456	User Gaze Shift:	19
+11:20:53.1456	Mutual Gaze Start
+11:20:54.1724	Speech End:	2_TS_PreReference_12
+11:20:54.1724	Phase Start:	Reference
+11:20:54.1735	Speech Start:	2_TS_Reference_12
+11:20:54.8953	User Gaze Shift:	0
+11:20:54.8953	Mutual Gaze End:	1763.03625665605ms
+11:20:55.0255	User Gaze Shift:	19
+11:20:55.0255	Mutual Gaze Start
+11:20:55.5260	User Gaze Shift:	0
+11:20:55.5270	Mutual Gaze End:	517.340547405183ms
+11:20:55.9815	Speech End:	2_TS_Reference_12
+11:20:56.2667	User Gaze Shift:	10
+11:20:56.3988	User Gaze Shift:	11
+11:20:56.4819	Phase Start:	Monitor
+11:20:57.7631	User Gaze Shift:	12
+11:20:57.8972	User Gaze Shift:	0
+11:20:58.2828	User Gaze Shift:	12
+11:20:59.0544	Correct Action Performed:	12	3072.8576ms
+11:20:59.0544	Phase Start:	Action
+11:21:01.0702	Reference-Action Sequence End:	12
+11:21:01.0702	Speech Start:	2_TS_outro
+11:21:01.9238	User Gaze Shift:	17
+11:21:02.0069	User Gaze Shift:	0
+11:21:02.2761	User Gaze Shift:	19
+11:21:02.2761	Mutual Gaze Start
+11:21:02.7645	User Gaze Shift:	0
+11:21:02.7656	Mutual Gaze End:	505.895683541894ms
+11:21:03.0318	User Gaze Shift:	19
+11:21:03.0318	Mutual Gaze Start
+11:21:04.8175	Speech End:	2_TS_outro
+11:21:04.8175	Sandwich End:	2_TS
+
+
+11:26:03.4976	Speech Start:	intro
+11:26:23.6516	Speech End:	intro
+11:26:24.1531	Condition:	FullModel
+
+11:26:24.1541	Sandwich Start:	4_RBS
+11:26:24.1541	Speech Start:	4_RBS_intro
+11:26:26.7031	Speech End:	4_RBS_intro
+11:26:26.7041	Reference-Action Sequence Start:	1
+11:26:26.7041	Reference Object:	13
+11:26:26.7041	Ambiguous Objects:	14,6
+11:26:26.7041	Phase Start:	PreReference
+11:26:26.7201	User Speech:	clarify:Any of the lettuce:0.9202231
+
+11:26:27.6789	Agent Gaze to Reference:	13
+11:26:27.6959	Mutual Gaze End:	2793.18694863468ms
+11:26:27.7119	Speech Start:	4_RBS_PreReference_1
+11:26:29.3745	Speech End:	4_RBS_PreReference_1
+11:26:29.3755	Phase Start:	Reference
+11:26:29.3755	Speech Start:	4_RBS_Reference_1
+11:26:29.4616	Agent Gaze to Other:	16
+11:26:29.7628	User Gaze Shift:	0
+11:26:30.2763	User Gaze Shift:	14
+11:26:30.2783	Agent Gaze to Other:	1
+11:26:30.5445	User Gaze Shift:	15
+11:26:30.6627	User Gaze Shift:	14
+11:26:30.7827	User Gaze Shift:	13
+11:26:31.0359	User Gaze Shift:	7
+11:26:31.0529	Agent Gaze to Reference:	13
+11:26:31.3041	User Gaze Shift:	19
+11:26:31.5223	User Gaze Shift:	0
+11:26:31.8885	Speech End:	4_RBS_Reference_1
+11:26:31.9235	User Gaze Shift:	13
+11:26:31.9235	Shared Reference Gaze Start:	13
+11:26:32.1447	Agent Gaze to Other:	18
+11:26:32.1617	Shared Gaze End:	255.10301720351ms
+11:26:32.2758	User Gaze Shift:	0
+11:26:32.3909	Phase Start:	Monitor
+11:26:33.3836	Agent Gaze to Other:	5
+11:26:33.5337	User Gaze Shift:	18
+11:26:33.7850	Correct Action Performed:	1	1895.4587ms
+11:26:33.7850	Phase Start:	Action
+11:26:33.8010	User Gaze Shift:	12
+11:26:33.8020	Heuristic:	Action - Target After Target
+11:26:33.8030	Agent Gaze to Target:	12
+11:26:33.8180	Shared Target Gaze Start:	12
+11:26:33.9001	User Gaze Shift:	0
+11:26:33.9001	Shared Gaze End:	100.104484707117ms
+11:26:35.7917	User Gaze Shift:	19
+11:26:35.7927	Heuristic:	Action - User and Target After Agent
+11:26:35.7937	Agent Gaze to User
+11:26:35.7937	Reference-Action Sequence End:	1
+11:26:35.7937	Reference-Action Sequence Start:	2
+11:26:35.7937	Reference Object:	9
+11:26:35.7937	Ambiguous Objects:	
+11:26:35.7937	Phase Start:	PreReference
+11:26:35.8067	Mutual Gaze Start
+11:26:36.6955	Agent Gaze to Other:	1
+11:26:36.7085	Mutual Gaze End:	916.815454140306ms
+11:26:36.7765	User Gaze Shift:	0
+11:26:36.7956	Agent Gaze to Reference:	9
+11:26:36.7956	Speech Start:	4_RBS_PreReference_2
+11:26:36.9137	User Gaze Shift:	19
+11:26:37.3041	Agent Gaze to Other:	10
+11:26:37.9116	Agent Gaze to Other:	5
+11:26:38.2979	Speech End:	4_RBS_PreReference_2
+11:26:38.2979	Phase Start:	Reference
+11:26:38.2989	Speech Start:	4_RBS_Reference_2
+11:26:38.5841	Agent Gaze to Other:	11
+11:26:39.1546	Agent Gaze to Other:	2
+11:26:39.3067	Speech End:	4_RBS_Reference_2
+11:26:39.4238	User Gaze Shift:	0
+11:26:39.8081	Phase Start:	Monitor
+11:26:40.0455	Agent Gaze to Other:	6
+11:26:40.0585	User Gaze Shift:	10
+11:26:40.1966	User Gaze Shift:	9
+11:26:40.1966	Heuristic:	Monitor - Reference After Reference
+11:26:40.1986	Agent Gaze to Reference:	9
+11:26:40.2107	Shared Reference Gaze Start:	9
+11:26:40.5510	User Gaze Shift:	4
+11:26:40.5510	Shared Gaze End:	352.933474816382ms
+11:26:40.6530	User Gaze Shift:	0
+11:26:40.7882	User Gaze Shift:	19
+11:26:40.7882	Heuristic:	Monitor - User After Agent
+11:26:40.7892	Agent Gaze to User
+11:26:40.8042	Mutual Gaze Start
+11:26:41.4276	User Gaze Shift:	17
+11:26:41.4286	Mutual Gaze End:	638.735258951783ms
+11:26:41.6779	User Gaze Shift:	11
+11:26:41.7959	User Gaze Shift:	12
+11:26:42.0311	User Gaze Shift:	0
+11:26:42.1473	User Gaze Shift:	11
+11:26:42.2844	User Gaze Shift:	0
+11:26:42.3355	Agent Gaze to Reference:	9
+11:26:42.5667	Correct Action Performed:	2	3260.0009ms
+11:26:42.5667	Phase Start:	Action
+11:26:43.9419	User Gaze Shift:	8
+11:26:43.9419	Heuristic:	Action - Object after Object
+11:26:43.9419	Agent Gaze to Other:	8
+11:26:43.9589	Shared Other Gaze Start:	8
+11:26:44.0440	User Gaze Shift:	0
+11:26:44.0440	Shared Gaze End:	101.765152998269ms
+11:26:44.1781	User Gaze Shift:	8
+11:26:44.1781	Shared Other Gaze Start:	8
+11:26:44.1781	Heuristic:	Action - Object after Object
+11:26:44.1781	Agent Gaze to Other:	8
+11:26:44.2962	User Gaze Shift:	10
+11:26:44.2962	Shared Gaze End:	136.182677932084ms
+11:26:44.2962	Heuristic:	Action - Object after Object
+11:26:44.2962	Agent Gaze to Other:	10
+11:26:44.3092	Shared Other Gaze Start:	10
+11:26:44.5473	User Gaze Shift:	0
+11:26:44.5484	Shared Gaze End:	251.948769204319ms
+11:26:44.5824	Reference-Action Sequence End:	2
+11:26:44.5824	Reference-Action Sequence Start:	3
+11:26:44.5824	Reference Object:	11
+11:26:44.5824	Ambiguous Objects:	2
+11:26:44.5834	Phase Start:	PreReference
+11:26:44.6654	User Gaze Shift:	19
+11:26:44.9517	User Gaze Shift:	0
+11:26:45.5862	Speech Start:	4_RBS_PreReference_3
+11:26:45.7843	User Gaze Shift:	19
+11:26:46.1597	User Gaze Shift:	0
+11:26:46.5590	User Gaze Shift:	19
+11:26:46.5930	Speech End:	4_RBS_PreReference_3
+11:26:46.5940	Phase Start:	Reference
+11:26:46.5940	Speech Start:	4_RBS_Reference_3
+11:26:46.6611	User Gaze Shift:	0
+11:26:46.7964	User Gaze Shift:	19
+11:26:46.9144	User Gaze Shift:	0
+11:26:47.1356	Agent Gaze to Other:	7
+11:26:47.3879	Speech End:	4_RBS_Reference_3
+11:26:47.4209	User Gaze Shift:	19
+11:26:47.6751	User Gaze Shift:	0
+11:26:47.8902	Phase Start:	Monitor
+11:26:47.9243	User Gaze Shift:	11
+11:26:47.9243	Heuristic:	Monitor - Reference After Reference
+11:26:47.9273	Agent Gaze to Reference:	11
+11:26:47.9433	Shared Reference Gaze Start:	11
+11:26:48.1614	User Gaze Shift:	9
+11:26:48.1614	Shared Gaze End:	235.731278546155ms
+11:26:48.4137	User Gaze Shift:	2
+11:26:48.4137	Heuristic:	Monitor - Reference After Ambiguous
+11:26:48.6790	User Gaze Shift:	15
+11:26:48.7800	User Gaze Shift:	0
+11:26:49.0343	User Gaze Shift:	19
+11:26:49.0343	Heuristic:	Monitor - User After Agent
+11:26:49.0363	Agent Gaze to User
+11:26:49.0513	Mutual Gaze Start
+11:26:49.4226	Refinement Due to Gaze at Ambiguous Object
+11:26:49.4386	Gaze-Triggered Refinement
+11:26:49.4386	Phase Start:	Refinement
+11:26:49.4396	Speech Start:	refine2
+11:26:50.0931	Speech End:	refine2
+11:26:50.0941	Speech Start:	4_RBS_Refinement_3
+11:26:51.4433	Speech End:	4_RBS_Refinement_3
+11:26:51.5434	User Gaze Shift:	17
+11:26:51.5434	Mutual Gaze End:	2510.69130189717ms
+11:26:51.5975	Agent Gaze to Reference:	11
+11:26:51.9118	User Gaze Shift:	11
+11:26:51.9128	Shared Reference Gaze Start:	11
+11:26:51.9448	Phase Start:	Monitor
+11:26:52.5814	User Gaze Shift:	12
+11:26:52.5824	Shared Gaze End:	686.687340028584ms
+11:26:53.6412	Agent Gaze to User
+11:26:53.6412	Correct Action Performed:	3	6253.3582ms
+11:26:53.6412	Phase Start:	Action
+11:26:53.7903	User Gaze Shift:	18
+11:26:53.7913	Heuristic:	Action - Object after Object
+11:26:53.7913	Agent Gaze to Other:	18
+11:26:53.8094	Shared Other Gaze Start:	18
+11:26:53.8934	User Gaze Shift:	0
+11:26:53.8934	Shared Gaze End:	102.718448266387ms
+11:26:54.0965	Agent Gaze to Other:	3
+11:26:54.2987	User Gaze Shift:	19
+11:26:54.2997	Heuristic:	Action - User and Target After Agent
+11:26:54.3017	Agent Gaze to User
+11:26:54.3167	Mutual Gaze Start
+11:26:54.7230	Agent Gaze to Other:	16
+11:26:54.7380	Mutual Gaze End:	437.953993678093ms
+11:26:54.8061	User Gaze Shift:	0
+11:26:54.9402	User Gaze Shift:	19
+11:26:54.9412	Heuristic:	Action - User and Target After Agent
+11:26:54.9422	Agent Gaze to User
+11:26:54.9582	Mutual Gaze Start
+11:26:55.6457	Reference-Action Sequence End:	3
+11:26:55.6457	Reference-Action Sequence Start:	4
+11:26:55.6457	Reference Object:	15
+11:26:55.6457	Ambiguous Objects:	
+11:26:55.6457	Phase Start:	PreReference
+11:26:55.7648	Agent Gaze to Other:	6
+11:26:55.7788	Mutual Gaze End:	839.135136455297ms
+11:26:56.2743	Agent Gaze to Reference:	15
+11:26:56.6597	Speech Start:	4_RBS_PreReference_4
+11:26:57.7035	Speech End:	4_RBS_PreReference_4
+11:26:57.7035	Phase Start:	Reference
+11:26:57.7035	Speech Start:	4_RBS_Reference_4
+11:26:57.7376	Agent Gaze to User
+11:26:57.7536	Mutual Gaze Start
+11:26:58.4611	Speech End:	4_RBS_Reference_4
+11:26:58.5622	Agent Gaze to Other:	14
+11:26:58.5762	Mutual Gaze End:	839.796119369566ms
+11:26:58.6612	User Gaze Shift:	0
+11:26:58.9626	Phase Start:	Monitor
+11:26:59.0166	Agent Gaze to Reference:	15
+11:26:59.0326	Agent Gaze to User
+11:26:59.2007	User Gaze Shift:	15
+11:26:59.2007	Heuristic:	Monitor - Reference After Reference
+11:26:59.2017	Agent Gaze to Reference:	15
+11:26:59.2157	Shared Reference Gaze Start:	15
+11:26:59.2177	Agent Gaze to Other:	8
+11:26:59.2337	Shared Gaze End:	33.7023474276066ms
+11:26:59.7384	Agent Gaze to Other:	6
+11:26:59.8035	User Gaze Shift:	19
+11:26:59.8035	Heuristic:	Monitor - User After Agent
+11:26:59.8055	Agent Gaze to User
+11:26:59.8235	Mutual Gaze Start
+11:27:00.4281	User Gaze Shift:	0
+11:27:00.4281	Mutual Gaze End:	624.879248440266ms
+11:27:01.3217	Correct Action Performed:	4	2860.6438ms
+11:27:01.3217	Phase Start:	Action
+11:27:01.8262	Agent Gaze to Other:	17
+11:27:01.8422	Agent Gaze to User
+11:27:02.9541	Agent Gaze to Other:	17
+11:27:03.3385	Reference-Action Sequence End:	4
+11:27:03.3385	Reference-Action Sequence Start:	5
+11:27:03.3385	Reference Object:	16
+11:27:03.3395	Ambiguous Objects:	1
+11:27:03.3395	Phase Start:	PreReference
+11:27:03.3875	User Gaze Shift:	19
+11:27:03.4886	User Gaze Shift:	0
+11:27:03.6898	User Gaze Shift:	19
+11:27:04.3503	Agent Gaze to Reference:	16
+11:27:04.3514	Speech Start:	4_RBS_PreReference_5
+11:27:05.2600	Speech End:	4_RBS_PreReference_5
+11:27:05.2600	Phase Start:	Reference
+11:27:05.2610	Speech Start:	4_RBS_Reference_5
+11:27:05.5982	Agent Gaze to Other:	17
+11:27:06.0516	User Gaze Shift:	0
+11:27:06.3688	Speech End:	4_RBS_Reference_5
+11:27:06.4389	User Gaze Shift:	17
+11:27:06.4389	Shared Other Gaze Start:	17
+11:27:06.5069	Agent Gaze to Other:	14
+11:27:06.5199	Shared Gaze End:	100.185362622142ms
+11:27:06.6870	User Gaze Shift:	10
+11:27:06.7881	User Gaze Shift:	0
+11:27:06.8732	Phase Start:	Monitor
+11:27:06.9412	User Gaze Shift:	4
+11:27:07.0583	User Gaze Shift:	3
+11:27:07.1764	User Gaze Shift:	8
+11:27:07.3055	User Gaze Shift:	2
+11:27:07.3426	Agent Gaze to User
+11:27:07.4426	User Gaze Shift:	9
+11:27:07.5597	User Gaze Shift:	10
+11:27:07.6748	User Gaze Shift:	9
+11:27:07.7959	User Gaze Shift:	0
+11:27:07.9120	User Gaze Shift:	19
+11:27:07.9120	Mutual Gaze Start
+11:27:07.9120	Heuristic:	Monitor - User After Agent
+11:27:08.1802	User Gaze Shift:	0
+11:27:08.1812	Mutual Gaze End:	287.158653140068ms
+11:27:08.4494	User Gaze Shift:	16
+11:27:08.4494	Heuristic:	Monitor - Reference After Reference
+11:27:08.4514	Agent Gaze to Reference:	16
+11:27:08.4664	Shared Reference Gaze Start:	16
+11:27:08.8026	User Gaze Shift:	0
+11:27:08.8026	Shared Gaze End:	353.858439251781ms
+11:27:08.8357	Agent Gaze to Other:	14
+11:27:09.9136	Refinement Due to Gaze at Agent
+11:27:09.9306	Gaze-Triggered Refinement
+11:27:09.9306	Phase Start:	Refinement
+11:27:09.9316	Speech Start:	refine1
+11:27:09.9506	Agent Gaze to Reference:	16
+11:27:10.4801	Speech End:	refine1
+11:27:10.4801	Speech Start:	4_RBS_Refinement_5
+11:27:11.0195	Agent Gaze to Other:	2
+11:27:11.0385	Agent Gaze to Reference:	16
+11:27:11.9343	User Gaze Shift:	12
+11:27:12.4086	Correct Action Performed:	5	6039.801ms
+11:27:12.4086	Phase Start:	Action
+11:27:12.5247	Speech End:	4_RBS_Refinement_5
+11:27:12.9290	User Gaze Shift:	10
+11:27:12.9290	Heuristic:	Action - Object after Object
+11:27:12.9290	Agent Gaze to Other:	10
+11:27:12.9460	Shared Other Gaze Start:	10
+11:27:13.0340	User Gaze Shift:	0
+11:27:13.0340	Shared Gaze End:	104.899282567203ms
+11:27:13.0340	Phase Start:	Monitor
+11:27:13.6696	User Gaze Shift:	19
+11:27:13.6706	Heuristic:	Monitor - User After Agent
+11:27:13.6715	Agent Gaze to User
+11:27:13.6846	Mutual Gaze Start
+11:27:14.4112	Reference-Action Sequence End:	5
+11:27:14.4122	Reference-Action Sequence Start:	6
+11:27:14.4122	Reference Object:	2
+11:27:14.4122	Ambiguous Objects:	
+11:27:14.4122	Phase Start:	PreReference
+11:27:15.1688	Agent Gaze to Other:	1
+11:27:15.1838	Mutual Gaze End:	1513.84801603854ms
+11:27:15.4180	Agent Gaze to Reference:	2
+11:27:15.4180	Speech Start:	4_RBS_PreReference_6
+11:27:15.6712	Refinement Due to Gaze at Agent
+11:27:16.0095	Speech End:	4_RBS_PreReference_6
+11:27:16.0095	Phase Start:	Reference
+11:27:16.0095	Speech Start:	4_RBS_Reference_6
+11:27:16.1135	Agent Gaze to Other:	7
+11:27:17.0703	Agent Gaze to Reference:	2
+11:27:17.0863	Speech End:	4_RBS_Reference_6
+11:27:17.2885	User Gaze Shift:	0
+11:27:17.5857	Phase Start:	Monitor
+11:27:17.6047	Gaze-Triggered Refinement
+11:27:17.6047	Phase Start:	Refinement
+11:27:17.6047	Speech Start:	refine2
+11:27:17.8038	User Gaze Shift:	2
+11:27:17.8048	Shared Reference Gaze Start:	2
+11:27:18.1791	User Gaze Shift:	15
+11:27:18.1791	Shared Gaze End:	389.794576913118ms
+11:27:18.2632	Speech End:	refine2
+11:27:18.2632	Speech Start:	4_RBS_Refinement_6
+11:27:18.2982	User Gaze Shift:	0
+11:27:18.6815	User Gaze Shift:	17
+11:27:18.8007	User Gaze Shift:	0
+11:27:18.9177	User Gaze Shift:	11
+11:27:19.0538	User Gaze Shift:	12
+11:27:19.2590	Agent Gaze to User
+11:27:19.5602	User Gaze Shift:	0
+11:27:19.5933	Correct Action Performed:	6	2506.9623ms
+11:27:19.5933	Phase Start:	Action
+11:27:19.6754	Speech End:	4_RBS_Refinement_6
+11:27:19.7955	Agent Gaze to Other:	5
+11:27:20.0658	User Gaze Shift:	12
+11:27:20.0668	Heuristic:	Action - Target After Target
+11:27:20.0678	Agent Gaze to Target:	12
+11:27:20.0838	Shared Target Gaze Start:	12
+11:27:20.1669	User Gaze Shift:	0
+11:27:20.1679	Shared Gaze End:	101.344751194119ms
+11:27:20.1829	Phase Start:	Monitor
+11:27:20.8434	User Gaze Shift:	19
+11:27:20.8434	Heuristic:	Monitor - User After Agent
+11:27:20.8444	Agent Gaze to User
+11:27:20.8604	Mutual Gaze Start
+11:27:21.2999	User Gaze Shift:	0
+11:27:21.2999	Mutual Gaze End:	457.150417380035ms
+11:27:21.4430	User Gaze Shift:	19
+11:27:21.4440	Mutual Gaze Start
+11:27:21.4440	Heuristic:	Monitor - User After Agent
+11:27:21.6051	Reference-Action Sequence End:	6
+11:27:21.6051	Reference-Action Sequence Start:	7
+11:27:21.6051	Reference Object:	8
+11:27:21.6051	Ambiguous Objects:	5,18,4
+11:27:21.6061	Phase Start:	PreReference
+11:27:22.1936	User Gaze Shift:	0
+11:27:22.1936	Mutual Gaze End:	770.884301513433ms
+11:27:22.3298	User Gaze Shift:	19
+11:27:22.3298	Mutual Gaze Start
+11:27:22.4469	User Gaze Shift:	0
+11:27:22.4469	Mutual Gaze End:	134.718660265207ms
+11:27:22.5469	Agent Gaze to Other:	5
+11:27:22.6160	Agent Gaze to Reference:	8
+11:27:22.6160	Speech Start:	4_RBS_PreReference_7
+11:27:23.1837	User Gaze Shift:	19
+11:27:23.3668	Speech End:	4_RBS_PreReference_7
+11:27:23.3668	Phase Start:	Reference
+11:27:23.3678	Speech Start:	4_RBS_Reference_7
+11:27:23.4519	Refinement Due to Gaze at Agent
+11:27:23.9273	User Gaze Shift:	0
+11:27:23.9953	Agent Gaze to User
+11:27:24.4697	Speech End:	4_RBS_Reference_7
+11:27:24.7219	User Gaze Shift:	7
+11:27:24.7239	Agent Gaze to Other:	18
+11:27:24.9022	User Gaze Shift:	9
+11:27:24.9722	Phase Start:	Monitor
+11:27:24.9862	Gaze-Triggered Refinement
+11:27:24.9872	Phase Start:	Refinement
+11:27:24.9872	Speech Start:	refine1
+11:27:24.9892	User Gaze Shift:	0
+11:27:25.3095	User Gaze Shift:	5
+11:27:25.4616	User Gaze Shift:	4
+11:27:25.5437	Speech End:	refine1
+11:27:25.5437	Speech Start:	4_RBS_Refinement_7
+11:27:25.5608	User Gaze Shift:	5
+11:27:25.8320	User Gaze Shift:	11
+11:27:25.8680	Agent Gaze to Reference:	8
+11:27:25.9350	User Gaze Shift:	15
+11:27:26.0371	User Gaze Shift:	0
+11:27:26.4306	User Gaze Shift:	19
+11:27:27.5624	Speech End:	4_RBS_Refinement_7
+11:27:27.6985	User Gaze Shift:	0
+11:27:27.8336	User Gaze Shift:	8
+11:27:27.8336	Shared Reference Gaze Start:	8
+11:27:27.9377	User Gaze Shift:	0
+11:27:27.9377	Shared Gaze End:	119.276696816087ms
+11:27:28.0388	User Gaze Shift:	8
+11:27:28.0397	Shared Reference Gaze Start:	8
+11:27:28.0728	Phase Start:	Monitor
+11:27:28.3580	Agent Gaze to Other:	6
+11:27:28.3730	Shared Gaze End:	350.133119150996ms
+11:27:28.4582	User Gaze Shift:	19
+11:27:28.4591	Heuristic:	Monitor - User After Agent
+11:27:28.4591	Agent Gaze to User
+11:27:28.4752	Mutual Gaze Start
+11:27:28.6944	User Gaze Shift:	0
+11:27:28.6944	Mutual Gaze End:	235.695151612163ms
+11:27:28.8134	User Gaze Shift:	17
+11:27:28.9285	User Gaze Shift:	0
+11:27:29.0636	User Gaze Shift:	18
+11:27:29.0646	Heuristic:	Monitor - Reference After Ambiguous
+11:27:29.0656	Agent Gaze to Reference:	8
+11:27:29.1977	User Gaze Shift:	12
+11:27:29.3178	User Gaze Shift:	0
+11:27:29.6170	Correct Action Performed:	7	5147.3705ms
+11:27:29.6180	Phase Start:	Action
+11:27:30.6829	User Gaze Shift:	19
+11:27:30.6829	Heuristic:	Action - User and Target After Agent
+11:27:30.6839	Agent Gaze to User
+11:27:30.6989	Mutual Gaze Start
+11:27:31.2234	Agent Gaze to Other:	3
+11:27:31.2364	Mutual Gaze End:	554.33673132211ms
+11:27:31.3405	Agent Gaze to Other:	3
+11:27:31.6287	Reference-Action Sequence End:	7
+11:27:31.6287	Reference-Action Sequence Start:	8
+11:27:31.6287	Reference Object:	17
+11:27:31.6297	Ambiguous Objects:	
+11:27:31.6297	Phase Start:	PreReference
+11:27:32.1483	Agent Gaze to Reference:	17
+11:27:32.6338	Speech Start:	4_RBS_PreReference_8
+11:27:33.4455	Agent Gaze to Other:	4
+11:27:33.4625	Agent Gaze to Other:	5
+11:27:33.9348	Speech End:	4_RBS_PreReference_8
+11:27:33.9348	Phase Start:	Reference
+11:27:33.9348	Speech Start:	4_RBS_Reference_8
+11:27:34.4413	Agent Gaze to Other:	10
+11:27:34.8597	Speech End:	4_RBS_Reference_8
+11:27:34.9587	User Gaze Shift:	0
+11:27:34.9798	Agent Gaze to Reference:	17
+11:27:35.2990	User Gaze Shift:	17
+11:27:35.2990	Shared Reference Gaze Start:	17
+11:27:35.3670	Phase Start:	Monitor
+11:27:35.7384	Agent Gaze to Other:	1
+11:27:35.7554	Shared Gaze End:	472.030757926404ms
+11:27:36.9075	Agent Gaze to Other:	3
+11:27:36.9376	User Gaze Shift:	0
+11:27:37.0416	User Gaze Shift:	12
+11:27:37.4629	Agent Gaze to Reference:	17
+11:27:37.9163	Correct Action Performed:	8	3055.6556ms
+11:27:37.9173	Phase Start:	Action
+11:27:38.6739	User Gaze Shift:	0
+11:27:39.4455	User Gaze Shift:	11
+11:27:39.5647	User Gaze Shift:	6
+11:27:39.5647	Heuristic:	Action - Object after Object
+11:27:39.5647	Agent Gaze to Other:	6
+11:27:39.5807	Shared Other Gaze Start:	6
+11:27:39.5827	Agent Gaze to Other:	3
+11:27:39.5967	Shared Gaze End:	33.1850573420525ms
+11:27:39.9190	Reference-Action Sequence End:	8
+11:27:39.9200	Reference-Action Sequence Start:	9
+11:27:39.9200	Reference Object:	6
+11:27:39.9200	Ambiguous Objects:	7,14
+11:27:39.9200	Phase Start:	PreReference
+11:27:40.0541	User Gaze Shift:	11
+11:27:40.3093	User Gaze Shift:	12
+11:27:40.8187	Agent Gaze to Other:	3
+11:27:40.9208	Agent Gaze to Reference:	6
+11:27:40.9208	Speech Start:	4_RBS_PreReference_9
+11:27:41.1069	Agent Gaze to Other:	5
+11:27:41.1879	User Gaze Shift:	6
+11:27:41.3240	User Gaze Shift:	12
+11:27:41.6483	Agent Gaze to Reference:	6
+11:27:42.0856	User Gaze Shift:	6
+11:27:42.0856	Shared Reference Gaze Start:	6
+11:27:42.1877	User Gaze Shift:	12
+11:27:42.1877	Shared Gaze End:	118.006866425276ms
+11:27:42.2237	Speech End:	4_RBS_PreReference_9
+11:27:42.2237	Phase Start:	Reference
+11:27:42.2247	Speech Start:	4_RBS_Reference_9
+11:27:42.3068	User Gaze Shift:	6
+11:27:42.3068	Shared Reference Gaze Start:	6
+11:27:42.5919	User Gaze Shift:	12
+11:27:42.5919	Shared Gaze End:	299.43775665015ms
+11:27:43.1795	Speech End:	4_RBS_Reference_9
+11:27:43.3337	User Gaze Shift:	0
+11:27:43.6900	Phase Start:	Monitor
+11:27:43.7550	User Gaze Shift:	15
+11:27:43.9582	User Gaze Shift:	0
+11:27:44.2264	User Gaze Shift:	7
+11:27:44.2264	Heuristic:	Monitor - Reference After Ambiguous
+11:27:44.4105	User Gaze Shift:	0
+11:27:44.7599	User Gaze Shift:	19
+11:27:44.7599	Heuristic:	Monitor - User After Agent
+11:27:44.7618	Agent Gaze to User
+11:27:44.7759	Mutual Gaze Start
+11:27:44.8639	User Gaze Shift:	17
+11:27:44.8639	Mutual Gaze End:	100.911213085055ms
+11:27:44.9460	User Gaze Shift:	0
+11:27:45.0471	User Gaze Shift:	12
+11:27:45.2332	Refinement Due to Gaze at Ambiguous Object
+11:27:45.2472	Gaze-Triggered Refinement
+11:27:45.2472	Phase Start:	Refinement
+11:27:45.2482	Speech Start:	refine2
+11:27:45.2522	User Gaze Shift:	6
+11:27:45.8026	Agent Gaze to Other:	4
+11:27:45.8206	Agent Gaze to User
+11:27:45.9007	Speech End:	refine2
+11:27:45.9017	Speech Start:	4_RBS_Refinement_9
+11:27:45.9537	User Gaze Shift:	17
+11:27:46.0688	User Gaze Shift:	0
+11:27:46.4081	Agent Gaze to Reference:	6
+11:27:47.0555	User Gaze Shift:	6
+11:27:47.0555	Shared Reference Gaze Start:	6
+11:27:47.3287	Agent Gaze to User
+11:27:47.3448	Shared Gaze End:	304.593421518803ms
+11:27:47.4468	Speech End:	4_RBS_Refinement_9
+11:27:47.5789	User Gaze Shift:	12
+11:27:47.9522	Phase Start:	Monitor
+11:27:48.0713	Agent Gaze to Reference:	6
+11:27:49.2531	Agent Gaze to Other:	18
+11:27:49.6594	Agent Gaze to Other:	4
+11:27:50.0608	Correct Action Performed:	9	6880.2138ms
+11:27:50.0617	Phase Start:	Action
+11:27:50.2159	Agent Gaze to Other:	10
+11:27:50.7233	Agent Gaze to Target:	12
+11:27:50.7383	Shared Target Gaze Start:	12
+11:27:50.8373	User Gaze Shift:	6
+11:27:50.8384	Shared Gaze End:	115.397010929883ms
+11:27:50.9584	User Gaze Shift:	12
+11:27:50.9584	Shared Target Gaze Start:	12
+11:27:50.9584	Heuristic:	Action - Target After Target
+11:27:51.8482	User Gaze Shift:	15
+11:27:51.8482	Shared Gaze End:	908.722721971571ms
+11:27:51.9513	User Gaze Shift:	0
+11:27:52.0664	Reference-Action Sequence End:	9
+11:27:52.0664	Reference-Action Sequence Start:	10
+11:27:52.0664	Reference Object:	18
+11:27:52.0664	Ambiguous Objects:	4,5
+11:27:52.0664	Phase Start:	PreReference
+11:27:52.2006	User Gaze Shift:	19
+11:27:52.4717	User Gaze Shift:	0
+11:27:52.4907	Agent Gaze to Reference:	18
+11:27:52.5918	User Gaze Shift:	15
+11:27:52.7110	User Gaze Shift:	0
+11:27:52.8792	Agent Gaze to Other:	4
+11:27:53.0813	Agent Gaze to Reference:	18
+11:27:53.0813	Speech Start:	4_RBS_PreReference_10
+11:27:54.4993	Speech End:	4_RBS_PreReference_10
+11:27:54.4993	Phase Start:	Reference
+11:27:54.4993	Speech Start:	4_RBS_Reference_10
+11:27:54.5814	User Gaze Shift:	19
+11:27:54.9847	User Gaze Shift:	0
+11:27:55.0888	Agent Gaze to Other:	4
+11:27:55.1218	User Gaze Shift:	19
+11:27:55.2059	User Gaze Shift:	0
+11:27:55.7153	Agent Gaze to Reference:	18
+11:27:55.8494	User Gaze Shift:	16
+11:27:55.9514	User Gaze Shift:	17
+11:27:56.0705	User Gaze Shift:	18
+11:27:56.0705	Shared Reference Gaze Start:	18
+11:27:56.3237	User Gaze Shift:	5
+11:27:56.3247	Shared Gaze End:	271.706427447498ms
+11:27:56.3757	Agent Gaze to Other:	5
+11:27:56.3917	Shared Ambiguous Gaze Start:	5
+11:27:56.4418	User Gaze Shift:	4
+11:27:56.4428	Shared Gaze End:	67.7290298044682ms
+11:27:56.5749	Speech End:	4_RBS_Reference_10
+11:27:56.8301	User Gaze Shift:	12
+11:27:56.9322	User Gaze Shift:	18
+11:27:57.0263	Agent Gaze to Reference:	18
+11:27:57.0433	Shared Reference Gaze Start:	18
+11:27:57.0553	User Gaze Shift:	0
+11:27:57.0553	Shared Gaze End:	30.2266431972384ms
+11:27:57.0863	Phase Start:	Monitor
+11:27:57.4085	Agent Gaze to Other:	14
+11:27:58.0700	User Gaze Shift:	18
+11:27:58.0700	Heuristic:	Monitor - Reference After Reference
+11:27:58.0710	Agent Gaze to Reference:	18
+11:27:58.0850	Shared Reference Gaze Start:	18
+11:27:58.1851	User Gaze Shift:	0
+11:27:58.1851	Shared Gaze End:	116.095353849232ms
+11:27:58.2051	Agent Gaze to Other:	1
+11:27:58.9346	Agent Gaze to Other:	7
+11:27:58.9516	Agent Gaze to Other:	4
+11:27:59.2048	User Gaze Shift:	1
+11:27:59.3389	User Gaze Shift:	9
+11:27:59.4581	User Gaze Shift:	0
+11:27:59.5761	User Gaze Shift:	17
+11:27:59.6262	Agent Gaze to Other:	1
+11:27:59.6922	User Gaze Shift:	18
+11:27:59.6932	Heuristic:	Monitor - Reference After Reference
+11:27:59.6942	Agent Gaze to Reference:	18
+11:27:59.7092	Shared Reference Gaze Start:	18
+11:27:59.8453	User Gaze Shift:	0
+11:27:59.8453	Shared Gaze End:	153.901136480272ms
+11:27:59.9974	User Gaze Shift:	10
+11:28:00.3177	User Gaze Shift:	0
+11:28:00.8431	User Gaze Shift:	19
+11:28:00.8431	Heuristic:	Monitor - User After Agent
+11:28:00.8441	Agent Gaze to User
+11:28:00.8601	Mutual Gaze Start
+11:28:01.2445	User Speech:	clarify:Which cucumber:0.9422711
+
+11:28:01.2445	Speech-Triggered Refinement
+11:28:01.2445	Phase Start:	Refinement
+11:28:01.2445	Speech Start:	refine1
+11:28:01.8039	Speech End:	refine1
+11:28:01.8049	Speech Start:	4_RBS_Refinement_10
+11:28:02.7877	Agent Gaze to Reference:	18
+11:28:02.8017	Mutual Gaze End:	1959.24483705312ms
+11:28:03.9568	User Gaze Shift:	0
+11:28:04.4502	Speech End:	4_RBS_Refinement_10
+11:28:04.4662	User Gaze Shift:	11
+11:28:04.5853	User Gaze Shift:	10
+11:28:04.7014	User Gaze Shift:	16
+11:28:04.8035	User Gaze Shift:	17
+11:28:04.9546	Phase Start:	Monitor
+11:28:04.9706	User Gaze Shift:	18
+11:28:04.9706	Shared Reference Gaze Start:	18
+11:28:04.9706	Heuristic:	Monitor - Reference After Reference
+11:28:05.0887	User Gaze Shift:	12
+11:28:05.0897	Shared Gaze End:	134.356150403619ms
+11:28:05.3269	User Gaze Shift:	0
+11:28:06.0835	User Gaze Shift:	18
+11:28:06.0835	Shared Reference Gaze Start:	18
+11:28:06.0835	Heuristic:	Monitor - Reference After Reference
+11:28:06.1846	User Gaze Shift:	0
+11:28:06.1846	Shared Gaze End:	117.653385736048ms
+11:28:06.5728	User Gaze Shift:	12
+11:28:07.1263	Correct Action Performed:	10	10550.4004ms
+11:28:07.1263	Phase Start:	Action
+11:28:07.8208	User Gaze Shift:	11
+11:28:07.9419	User Gaze Shift:	0
+11:28:08.0580	User Gaze Shift:	4
+11:28:08.0580	Heuristic:	Action - Object after Object
+11:28:08.0580	Agent Gaze to Other:	4
+11:28:08.0710	Shared Ambiguous Gaze Start:	4
+11:28:08.0730	Agent Gaze to Target:	12
+11:28:08.0910	Shared Gaze End:	31.7542953416705ms
+11:28:08.2071	User Gaze Shift:	15
+11:28:08.3442	User Gaze Shift:	5
+11:28:08.3452	Heuristic:	Action - Object after Object
+11:28:08.3452	Agent Gaze to Other:	5
+11:28:08.3602	Shared Ambiguous Gaze Start:	5
+11:28:08.4793	User Gaze Shift:	0
+11:28:08.4793	Shared Gaze End:	134.515849873424ms
+11:28:08.6334	Agent Gaze to Other:	4
+11:28:08.9556	User Gaze Shift:	19
+11:28:08.9556	Heuristic:	Action - User and Target After Agent
+11:28:08.9566	Agent Gaze to User
+11:28:08.9727	Mutual Gaze Start
+11:28:09.1408	Reference-Action Sequence End:	10
+11:28:09.1408	Reference-Action Sequence Start:	11
+11:28:09.1408	Reference Object:	1
+11:28:09.1408	Ambiguous Objects:	
+11:28:09.1408	Phase Start:	PreReference
+11:28:09.4800	Agent Gaze to Reference:	1
+11:28:09.4940	Mutual Gaze End:	538.004694506526ms
+11:28:10.1487	Speech Start:	4_RBS_PreReference_11
+11:28:10.8073	Agent Gaze to Other:	5
+11:28:11.4137	Agent Gaze to Reference:	1
+11:28:12.6277	Agent Gaze to Other:	4
+11:28:13.1050	Agent Gaze to Reference:	1
+11:28:13.1050	Speech End:	4_RBS_PreReference_11
+11:28:13.1050	Phase Start:	Reference
+11:28:13.1060	Speech Start:	4_RBS_Reference_11
+11:28:14.3319	User Gaze Shift:	0
+11:28:14.8313	User Gaze Shift:	1
+11:28:14.8313	Shared Reference Gaze Start:	1
+11:28:14.8673	Agent Gaze to Other:	14
+11:28:14.8853	Shared Gaze End:	71.3086035102606ms
+11:28:14.8853	Speech End:	4_RBS_Reference_11
+11:28:15.3977	Agent Gaze to Other:	4
+11:28:15.3977	Phase Start:	Monitor
+11:28:15.8930	Agent Gaze to Reference:	1
+11:28:15.9140	Shared Reference Gaze Start:	1
+11:28:16.7267	User Gaze Shift:	0
+11:28:16.7267	Shared Gaze End:	835.80641169101ms
+11:28:17.0610	User Gaze Shift:	18
+11:28:17.2151	User Gaze Shift:	12
+11:28:17.3313	User Gaze Shift:	0
+11:28:17.5174	User Gaze Shift:	12
+11:28:17.6365	Correct Action Performed:	11	2750.2309ms
+11:28:17.6365	Phase Start:	Action
+11:28:17.8887	Agent Gaze to Other:	5
+11:28:18.7654	User Gaze Shift:	6
+11:28:18.7844	Agent Gaze to Other:	7
+11:28:18.7994	Agent Gaze to Other:	14
+11:28:19.0856	User Gaze Shift:	12
+11:28:19.0856	Heuristic:	Action - Target After Target
+11:28:19.0866	Agent Gaze to Target:	12
+11:28:19.1026	Shared Target Gaze Start:	12
+11:28:19.3398	User Gaze Shift:	18
+11:28:19.3398	Shared Gaze End:	255.870740860701ms
+11:28:19.4419	User Gaze Shift:	0
+11:28:19.6420	Reference-Action Sequence End:	11
+11:28:19.6430	Reference-Action Sequence Start:	12
+11:28:19.6430	Reference Object:	5
+11:28:19.6430	Ambiguous Objects:	4
+11:28:19.6430	Phase Start:	PreReference
+11:28:19.8462	User Gaze Shift:	19
+11:28:20.5377	Agent Gaze to Reference:	5
+11:28:20.6538	Speech Start:	4_RBS_PreReference_12
+11:28:21.8859	Agent Gaze to Other:	3
+11:28:22.2242	Agent Gaze to Other:	3
+11:28:22.3363	User Gaze Shift:	0
+11:28:22.4744	User Gaze Shift:	19
+11:28:22.6635	Agent Gaze to Other:	4
+11:28:23.1158	Agent Gaze to Reference:	5
+11:28:23.1829	Speech End:	4_RBS_PreReference_12
+11:28:23.1839	Phase Start:	Reference
+11:28:23.1839	Speech Start:	4_RBS_Reference_12
+11:28:24.0965	User Gaze Shift:	0
+11:28:24.1145	Agent Gaze to Other:	14
+11:28:24.5719	User Gaze Shift:	14
+11:28:24.5729	Shared Other Gaze Start:	14
+11:28:24.7210	User Gaze Shift:	0
+11:28:24.7210	Shared Gaze End:	167.30513703078ms
+11:28:24.9273	Agent Gaze to Reference:	5
+11:28:24.9273	Speech End:	4_RBS_Reference_12
+11:28:24.9733	User Gaze Shift:	4
+11:28:25.0724	User Gaze Shift:	5
+11:28:25.0734	Shared Reference Gaze Start:	5
+11:28:25.4327	Phase Start:	Monitor
+11:28:25.6868	Agent Gaze to User
+11:28:25.7029	Shared Gaze End:	644.623352214694ms
+11:28:26.0921	User Gaze Shift:	12
+11:28:26.8868	Agent Gaze to Reference:	5
+11:28:27.5563	Correct Action Performed:	12	2629.0291ms
+11:28:27.5573	Phase Start:	Action
+11:28:27.6444	Agent Gaze to Other:	4
+11:28:27.7074	User Gaze Shift:	0
+11:28:28.2249	User Gaze Shift:	19
+11:28:28.2249	Heuristic:	Action - User and Target After Agent
+11:28:28.2269	Agent Gaze to User
+11:28:28.2419	Mutual Gaze Start
+11:28:28.9474	User Gaze Shift:	0
+11:28:28.9474	Mutual Gaze End:	722.524542361498ms
+11:28:29.0835	User Gaze Shift:	19
+11:28:29.0835	Mutual Gaze Start
+11:28:29.0835	Heuristic:	Action - User and Target After Agent
+11:28:29.5688	Reference-Action Sequence End:	12
+11:28:29.5698	Speech Start:	4_RBS_outro
+11:28:30.1424	Agent Gaze to Other:	3
+11:28:30.1564	Mutual Gaze End:	1092.31432247907ms
+11:28:30.8831	Agent Gaze to User
+11:28:30.8981	Mutual Gaze Start
+11:28:31.8099	Agent Gaze to Other:	7
+11:28:31.8249	Mutual Gaze End:	943.70967708528ms
+11:28:33.5703	Agent Gaze to Target:	12
+11:28:34.2289	User Gaze Shift:	0
+11:28:34.2299	Speech End:	4_RBS_outro
+11:28:34.2299	Sandwich End:	4_RBS
+
+
+11:32:31.2638	Speech Start:	intro
+11:32:51.3920	Speech End:	intro
+11:32:51.8927	Condition:	NoGazeDetection
+
+11:32:51.8937	Sandwich Start:	3_HS
+11:32:51.8937	Speech Start:	3_HS_intro
+11:32:54.1522	Speech End:	3_HS_intro
+11:32:54.1522	Reference-Action Sequence Start:	1
+11:32:54.1522	Reference Object:	13
+11:32:54.1532	Ambiguous Objects:	10,1
+11:32:54.1532	Phase Start:	PreReference
+11:32:54.1682	User Speech:	clarify:This cheese:0.9398178
+
+11:32:54.1692	User Gaze Shift:	19
+11:32:55.1591	Speech Start:	3_HS_PreReference_1
+11:32:55.5123	Agent Gaze to Other:	11
+11:32:55.7635	Agent Gaze to Reference:	13
+11:32:55.7806	Agent Gaze to Other:	9
+11:32:56.0007	Agent Gaze to Reference:	13
+11:32:56.7673	Speech End:	3_HS_PreReference_1
+11:32:56.7673	Phase Start:	Reference
+11:32:56.7673	Speech Start:	3_HS_Reference_1
+11:32:57.3186	User Gaze Shift:	0
+11:32:57.3206	Agent Gaze to Other:	11
+11:32:57.4527	Speech End:	3_HS_Reference_1
+11:32:57.7219	User Gaze Shift:	13
+11:32:57.9551	User Gaze Shift:	15
+11:32:57.9561	Phase Start:	Monitor
+11:32:58.3365	User Gaze Shift:	0
+11:32:58.7051	Agent Gaze to Reference:	13
+11:32:59.0864	User Gaze Shift:	16
+11:32:59.3356	User Gaze Shift:	10
+11:32:59.4687	User Gaze Shift:	14
+11:32:59.5668	User Gaze Shift:	0
+11:32:59.6879	User Gaze Shift:	13
+11:32:59.6879	Shared Reference Gaze Start:	13
+11:32:59.9431	User Gaze Shift:	9
+11:32:59.9431	Shared Gaze End:	268.833816051483ms
+11:33:00.0752	User Gaze Shift:	0
+11:33:00.3265	User Gaze Shift:	9
+11:33:00.4406	User Gaze Shift:	0
+11:33:00.5576	User Gaze Shift:	13
+11:33:00.5586	Shared Reference Gaze Start:	13
+11:33:01.9650	User Gaze Shift:	0
+11:33:01.9650	Shared Gaze End:	1422.26980160922ms
+11:33:01.9841	Agent Gaze to User
+11:33:03.6687	Agent Gaze to Reference:	13
+11:33:03.9359	User Gaze Shift:	11
+11:33:04.0860	User Gaze Shift:	10
+11:33:04.2852	Correct Action Performed:	1	6832.4268ms
+11:33:04.2852	Phase Start:	Action
+11:33:04.4673	User Gaze Shift:	11
+11:33:04.5654	User Gaze Shift:	0
+11:33:04.6846	User Gaze Shift:	12
+11:33:05.2210	User Gaze Shift:	0
+11:33:05.6214	Agent Gaze to Other:	14
+11:33:05.6354	Agent Gaze to Other:	6
+11:33:05.9699	User Gaze Shift:	19
+11:33:06.3023	Reference-Action Sequence End:	1
+11:33:06.3033	Reference-Action Sequence Start:	2
+11:33:06.3033	Reference Object:	16
+11:33:06.3033	Ambiguous Objects:	
+11:33:06.3033	Phase Start:	PreReference
+11:33:07.3052	Speech Start:	3_HS_PreReference_2
+11:33:07.4393	Agent Gaze to Other:	8
+11:33:07.7225	User Gaze Shift:	0
+11:33:08.0567	Agent Gaze to Other:	9
+11:33:08.2400	User Gaze Shift:	17
+11:33:08.3561	User Gaze Shift:	0
+11:33:08.4412	Speech End:	3_HS_PreReference_2
+11:33:08.4412	Phase Start:	Reference
+11:33:08.4412	Speech Start:	3_HS_Reference_2
+11:33:08.5743	User Gaze Shift:	15
+11:33:08.6924	User Gaze Shift:	0
+11:33:08.8235	User Gaze Shift:	19
+11:33:08.8435	Agent Gaze to Reference:	16
+11:33:09.0737	User Gaze Shift:	0
+11:33:09.1918	Agent Gaze to User
+11:33:09.2398	Speech End:	3_HS_Reference_2
+11:33:09.7072	User Gaze Shift:	16
+11:33:09.7432	Phase Start:	Monitor
+11:33:09.7622	Agent Gaze to Other:	4
+11:33:09.8442	User Gaze Shift:	0
+11:33:09.9453	User Gaze Shift:	9
+11:33:10.0974	User Gaze Shift:	10
+11:33:10.1985	User Gaze Shift:	16
+11:33:10.4477	User Gaze Shift:	0
+11:33:10.6008	Agent Gaze to Reference:	16
+11:33:11.7037	User Gaze Shift:	19
+11:33:11.8378	User Gaze Shift:	0
+11:33:12.2052	User Gaze Shift:	11
+11:33:12.3353	User Gaze Shift:	12
+11:33:12.4834	Correct Action Performed:	2	3242.5735ms
+11:33:12.4844	Phase Start:	Action
+11:33:12.6855	Agent Gaze to Target:	12
+11:33:12.7005	Shared Target Gaze Start:	12
+11:33:13.1660	User Gaze Shift:	18
+11:33:13.1660	Shared Gaze End:	482.406965456903ms
+11:33:13.2681	User Gaze Shift:	0
+11:33:13.4662	User Gaze Shift:	19
+11:33:14.0647	Agent Gaze to User
+11:33:14.0827	Mutual Gaze Start
+11:33:14.4840	Reference-Action Sequence End:	2
+11:33:14.4850	Reference-Action Sequence Start:	3
+11:33:14.4850	Reference Object:	6
+11:33:14.4850	Ambiguous Objects:	9
+11:33:14.4850	Phase Start:	PreReference
+11:33:14.8855	Agent Gaze to Other:	10
+11:33:14.9006	Mutual Gaze End:	837.374296970665ms
+11:33:14.9857	Agent Gaze to Reference:	6
+11:33:15.4532	User Gaze Shift:	0
+11:33:15.5022	Speech Start:	3_HS_PreReference_3
+11:33:15.9537	User Gaze Shift:	19
+11:33:16.4441	Agent Gaze to Other:	15
+11:33:16.4942	Speech End:	3_HS_PreReference_3
+11:33:16.4952	Phase Start:	Reference
+11:33:16.4952	Speech Start:	3_HS_Reference_3
+11:33:16.5922	User Gaze Shift:	0
+11:33:17.0789	User Gaze Shift:	19
+11:33:17.3834	Speech End:	3_HS_Reference_3
+11:33:17.3974	Agent Gaze to Other:	11
+11:33:17.5996	User Gaze Shift:	0
+11:33:17.8347	User Gaze Shift:	9
+11:33:17.8848	Phase Start:	Monitor
+11:33:17.9718	User Gaze Shift:	0
+11:33:18.3071	Agent Gaze to User
+11:33:18.3201	User Gaze Shift:	1
+11:33:18.4402	User Gaze Shift:	0
+11:33:19.1050	User Gaze Shift:	5
+11:33:19.1920	User Gaze Shift:	0
+11:33:19.3241	User Gaze Shift:	9
+11:33:19.6044	User Gaze Shift:	10
+11:33:19.8216	User Gaze Shift:	0
+11:33:19.9377	User Gaze Shift:	9
+11:33:20.4744	User Gaze Shift:	11
+11:33:20.4754	Agent Gaze to Reference:	6
+11:33:20.4924	Agent Gaze to Other:	11
+11:33:20.5064	Shared Other Gaze Start:	11
+11:33:20.5864	User Gaze Shift:	0
+11:33:20.5874	Shared Gaze End:	97.9835884645581ms
+11:33:20.7055	User Gaze Shift:	12
+11:33:21.6262	Agent Gaze to Other:	9
+11:33:21.8103	Wrong Action Performed:	9	4426.872ms
+11:33:21.8113	Wrong Action-Triggered Refinement
+11:33:21.8113	Phase Start:	Refinement
+11:33:21.8113	Speech Start:	wrong2
+11:33:22.1958	User Gaze Shift:	0
+11:33:22.5771	User Gaze Shift:	19
+11:33:22.7142	User Gaze Shift:	0
+11:33:22.8483	Agent Gaze to Reference:	6
+11:33:23.0975	User Gaze Shift:	11
+11:33:23.1977	User Gaze Shift:	12
+11:33:23.4830	User Gaze Shift:	11
+11:33:23.5820	User Gaze Shift:	0
+11:33:23.8182	User Gaze Shift:	9
+11:33:24.2226	User Gaze Shift:	11
+11:33:24.3427	User Gaze Shift:	0
+11:33:24.4578	User Gaze Shift:	12
+11:33:24.5899	User Gaze Shift:	10
+11:33:24.6629	Agent Gaze to Other:	15
+11:33:24.6940	User Gaze Shift:	0
+11:33:24.8451	User Gaze Shift:	9
+11:33:25.7849	Agent Gaze to User
+11:33:26.0641	Speech End:	wrong2
+11:33:26.0641	Speech Start:	3_HS_Refinement_3
+11:33:26.4524	User Gaze Shift:	0
+11:33:26.8367	User Gaze Shift:	6
+11:33:27.0569	Agent Gaze to Ambiguous:	9
+11:33:27.4743	User Gaze Shift:	12
+11:33:27.5213	Speech End:	3_HS_Refinement_3
+11:33:27.7255	Agent Gaze to User
+11:33:28.0417	Phase Start:	Monitor
+11:33:28.4091	Agent Gaze to Other:	10
+11:33:28.9735	User Gaze Shift:	10
+11:33:28.9735	Shared Other Gaze Start:	10
+11:33:29.0735	User Gaze Shift:	0
+11:33:29.0745	Shared Gaze End:	116.947652772069ms
+11:33:29.1886	User Gaze Shift:	4
+11:33:29.3427	User Gaze Shift:	9
+11:33:29.3597	Agent Gaze to Other:	7
+11:33:29.3928	Correct Action Performed:	3	12009.328ms
+11:33:29.3928	Phase Start:	Action
+11:33:29.4918	User Gaze Shift:	13
+11:33:29.5909	User Gaze Shift:	0
+11:33:29.7911	Agent Gaze to Other:	17
+11:33:31.4066	Reference-Action Sequence End:	3
+11:33:31.4066	Reference-Action Sequence Start:	4
+11:33:31.4066	Reference Object:	3
+11:33:31.4066	Ambiguous Objects:	7
+11:33:31.4066	Phase Start:	PreReference
+11:33:31.6267	Agent Gaze to Other:	18
+11:33:32.2952	Agent Gaze to Other:	8
+11:33:32.4113	Speech Start:	3_HS_PreReference_4
+11:33:32.9447	Agent Gaze to Other:	8
+11:33:32.9628	User Gaze Shift:	19
+11:33:33.0798	User Gaze Shift:	0
+11:33:33.3520	Agent Gaze to Other:	11
+11:33:33.6643	User Gaze Shift:	19
+11:33:33.9368	Agent Gaze to Reference:	3
+11:33:34.0018	Speech End:	3_HS_PreReference_4
+11:33:34.0028	Phase Start:	Reference
+11:33:34.0028	Speech Start:	3_HS_Reference_4
+11:33:34.1009	User Gaze Shift:	0
+11:33:34.8219	User Gaze Shift:	19
+11:33:34.9730	User Gaze Shift:	0
+11:33:35.2082	User Gaze Shift:	9
+11:33:35.3073	Speech End:	3_HS_Reference_4
+11:33:35.3233	User Gaze Shift:	8
+11:33:35.4734	User Gaze Shift:	7
+11:33:35.5925	User Gaze Shift:	3
+11:33:35.5925	Shared Reference Gaze Start:	3
+11:33:35.8097	Phase Start:	Monitor
+11:33:35.8947	Agent Gaze to User
+11:33:35.9107	Shared Gaze End:	333.746481686831ms
+11:33:36.5943	User Gaze Shift:	10
+11:33:36.6974	User Gaze Shift:	0
+11:33:36.8465	User Gaze Shift:	17
+11:33:37.1157	User Gaze Shift:	12
+11:33:37.5183	Agent Gaze to Reference:	3
+11:33:37.5373	Agent Gaze to User
+11:33:38.2389	Correct Action Performed:	4	2931.5755ms
+11:33:38.2399	Phase Start:	Action
+11:33:38.5861	User Gaze Shift:	0
+11:33:38.7033	User Gaze Shift:	12
+11:33:39.2390	Agent Gaze to Other:	7
+11:33:40.2538	Reference-Action Sequence End:	4
+11:33:40.2538	Reference-Action Sequence Start:	5
+11:33:40.2538	Reference Object:	7
+11:33:40.2538	Ambiguous Objects:	5
+11:33:40.2538	Phase Start:	PreReference
+11:33:40.5852	User Gaze Shift:	11
+11:33:40.7013	User Gaze Shift:	0
+11:33:40.8154	Agent Gaze to Reference:	7
+11:33:40.8314	User Gaze Shift:	19
+11:33:40.9676	Agent Gaze to Other:	8
+11:33:41.1197	Agent Gaze to Other:	1
+11:33:41.2168	User Gaze Shift:	0
+11:33:41.2668	Speech Start:	3_HS_PreReference_5
+11:33:41.7162	User Gaze Shift:	19
+11:33:41.8363	User Gaze Shift:	0
+11:33:41.8883	Agent Gaze to Other:	18
+11:33:41.9384	Speech End:	3_HS_PreReference_5
+11:33:41.9384	Phase Start:	Reference
+11:33:41.9384	Speech Start:	3_HS_Reference_5
+11:33:42.6929	Speech End:	3_HS_Reference_5
+11:33:42.8280	Agent Gaze to Reference:	7
+11:33:42.9601	User Gaze Shift:	7
+11:33:42.9611	Shared Reference Gaze Start:	7
+11:33:43.1943	Phase Start:	Monitor
+11:33:43.2133	User Gaze Shift:	9
+11:33:43.2133	Shared Gaze End:	269.658609293401ms
+11:33:43.3294	User Gaze Shift:	0
+11:33:43.4836	User Gaze Shift:	19
+11:33:43.5677	Agent Gaze to Other:	9
+11:33:43.5997	User Gaze Shift:	0
+11:33:43.8620	User Gaze Shift:	17
+11:33:43.9791	User Gaze Shift:	16
+11:33:44.0332	Agent Gaze to User
+11:33:44.0832	User Gaze Shift:	0
+11:33:44.1963	User Gaze Shift:	11
+11:33:44.3474	User Gaze Shift:	5
+11:33:44.4826	User Gaze Shift:	4
+11:33:44.5978	User Gaze Shift:	0
+11:33:44.8331	User Gaze Shift:	7
+11:33:44.9662	User Gaze Shift:	14
+11:33:45.1023	User Gaze Shift:	0
+11:33:45.2184	User Gaze Shift:	19
+11:33:45.2194	Mutual Gaze Start
+11:33:45.3525	User Gaze Shift:	0
+11:33:45.3525	Mutual Gaze End:	148.863292299211ms
+11:33:45.4857	User Gaze Shift:	19
+11:33:45.4857	Mutual Gaze Start
+11:33:46.1025	User Gaze Shift:	0
+11:33:46.1035	Mutual Gaze End:	632.98224657774ms
+11:33:46.2065	Agent Gaze to Other:	8
+11:33:46.6719	User Speech:	clarify:Which cheese:0.9469344
+
+11:33:46.6729	Speech-Triggered Refinement
+11:33:46.6729	Phase Start:	Refinement
+11:33:46.6729	Speech Start:	refine2
+11:33:47.0272	Agent Gaze to Reference:	7
+11:33:47.0452	Agent Gaze to Other:	8
+11:33:47.3094	Speech End:	refine2
+11:33:47.3104	Speech Start:	3_HS_Refinement_5
+11:33:47.4625	Agent Gaze to Reference:	7
+11:33:48.6146	User Gaze Shift:	7
+11:33:48.6156	Shared Reference Gaze Start:	7
+11:33:49.0661	Agent Gaze to Other:	10
+11:33:49.0811	Shared Gaze End:	483.901775442064ms
+11:33:49.6207	Agent Gaze to Other:	2
+11:33:49.7048	Speech End:	3_HS_Refinement_5
+11:33:49.9540	User Gaze Shift:	0
+11:33:50.2052	Phase Start:	Monitor
+11:33:50.3382	User Gaze Shift:	12
+11:33:50.3903	Agent Gaze to Reference:	7
+11:33:50.6065	User Gaze Shift:	0
+11:33:50.8257	Correct Action Performed:	5	8132.8149ms
+11:33:50.8257	Phase Start:	Action
+11:33:51.1781	Agent Gaze to Other:	5
+11:33:51.4763	User Gaze Shift:	12
+11:33:51.5944	User Gaze Shift:	0
+11:33:51.8588	User Gaze Shift:	10
+11:33:51.9758	User Gaze Shift:	0
+11:33:52.2060	User Gaze Shift:	16
+11:33:52.7254	Agent Gaze to Other:	18
+11:33:52.8265	Reference-Action Sequence End:	5
+11:33:52.8265	Reference-Action Sequence Start:	6
+11:33:52.8265	Reference Object:	9
+11:33:52.8265	Ambiguous Objects:	
+11:33:52.8265	Phase Start:	PreReference
+11:33:53.0907	User Gaze Shift:	0
+11:33:53.2058	User Gaze Shift:	19
+11:33:53.5901	User Gaze Shift:	0
+11:33:53.8263	Speech Start:	3_HS_PreReference_6
+11:33:53.8453	User Gaze Shift:	19
+11:33:54.2627	Agent Gaze to User
+11:33:54.2807	Mutual Gaze Start
+11:33:54.3638	User Gaze Shift:	0
+11:33:54.3638	Mutual Gaze End:	102.205673232675ms
+11:33:54.8351	Speech End:	3_HS_PreReference_6
+11:33:54.8362	Phase Start:	Reference
+11:33:54.8362	Speech Start:	3_HS_Reference_6
+11:33:54.9873	Agent Gaze to Other:	14
+11:33:55.3387	User Gaze Shift:	19
+11:33:55.4748	User Gaze Shift:	0
+11:33:55.6099	User Gaze Shift:	19
+11:33:55.7261	User Gaze Shift:	0
+11:33:55.9775	User Gaze Shift:	19
+11:33:55.9795	Agent Gaze to Other:	2
+11:33:56.0105	Speech End:	3_HS_Reference_6
+11:33:56.0945	User Gaze Shift:	0
+11:33:56.2106	User Gaze Shift:	9
+11:33:56.5128	Phase Start:	Monitor
+11:33:56.5990	User Gaze Shift:	0
+11:33:56.7141	User Gaze Shift:	9
+11:33:56.9163	Agent Gaze to Other:	17
+11:33:57.0995	User Gaze Shift:	4
+11:33:57.2165	User Gaze Shift:	9
+11:33:57.3376	User Gaze Shift:	0
+11:33:57.4538	User Gaze Shift:	9
+11:33:57.7400	User Gaze Shift:	10
+11:33:57.8951	User Gaze Shift:	12
+11:33:58.1783	Agent Gaze to Reference:	9
+11:33:59.5503	Agent Gaze to Other:	11
+11:33:59.5663	Agent Gaze to Other:	14
+11:33:59.6664	Correct Action Performed:	6	3654.9486ms
+11:33:59.6664	Phase Start:	Action
+11:34:00.6862	Agent Gaze to User
+11:34:01.1305	User Gaze Shift:	17
+11:34:01.2326	User Gaze Shift:	16
+11:34:01.3497	User Gaze Shift:	0
+11:34:01.5798	Agent Gaze to Other:	15
+11:34:01.6779	Reference-Action Sequence End:	6
+11:34:01.6789	Reference-Action Sequence Start:	7
+11:34:01.6789	Reference Object:	18
+11:34:01.6789	Ambiguous Objects:	1,4
+11:34:01.6789	Phase Start:	PreReference
+11:34:02.0965	User Gaze Shift:	19
+11:34:02.2116	User Gaze Shift:	0
+11:34:02.6800	Speech Start:	3_HS_PreReference_7
+11:34:02.8992	Agent Gaze to Reference:	18
+11:34:04.0211	Speech End:	3_HS_PreReference_7
+11:34:04.0221	Phase Start:	Reference
+11:34:04.0221	Speech Start:	3_HS_Reference_7
+11:34:04.7251	Agent Gaze to User
+11:34:04.8051	Speech End:	3_HS_Reference_7
+11:34:05.3105	Phase Start:	Monitor
+11:34:05.4146	Agent Gaze to Other:	11
+11:34:05.6678	Agent Gaze to Other:	11
+11:34:05.8009	User Gaze Shift:	18
+11:34:05.9841	User Gaze Shift:	11
+11:34:05.9841	Shared Other Gaze Start:	11
+11:34:06.0542	Agent Gaze to Other:	11
+11:34:06.2193	Agent Gaze to Other:	11
+11:34:06.2874	User Gaze Shift:	18
+11:34:06.2884	Shared Gaze End:	320.114215835929ms
+11:34:06.6036	User Gaze Shift:	12
+11:34:06.9019	Agent Gaze to Reference:	18
+11:34:06.9870	User Gaze Shift:	17
+11:34:07.1050	User Gaze Shift:	0
+11:34:07.3552	User Gaze Shift:	8
+11:34:07.4913	User Gaze Shift:	7
+11:34:07.6394	User Gaze Shift:	1
+11:34:08.1228	User Gaze Shift:	10
+11:34:08.1879	Agent Gaze to Other:	4
+11:34:08.2369	User Gaze Shift:	0
+11:34:08.3560	User Gaze Shift:	14
+11:34:08.4711	User Gaze Shift:	0
+11:34:08.8044	Agent Gaze to Other:	10
+11:34:09.2227	Agent Gaze to User
+11:34:09.4749	User Gaze Shift:	19
+11:34:09.4749	Mutual Gaze Start
+11:34:10.1056	User Gaze Shift:	0
+11:34:10.1056	Mutual Gaze End:	651.435997337103ms
+11:34:10.3758	User Gaze Shift:	19
+11:34:10.3758	Mutual Gaze Start
+11:34:10.4248	User Speech:	clarify:Which salami:0.9346643
+
+11:34:10.4248	Speech-Triggered Refinement
+11:34:10.4248	Phase Start:	Refinement
+11:34:10.4248	Speech Start:	refine1
+11:34:10.4919	User Gaze Shift:	0
+11:34:10.4929	Mutual Gaze End:	134.492447599769ms
+11:34:10.7091	Agent Gaze to Other:	11
+11:34:10.9753	Speech End:	refine1
+11:34:10.9763	Speech Start:	3_HS_Refinement_7
+11:34:11.5988	Agent Gaze to User
+11:34:11.9161	Agent Gaze to Reference:	18
+11:34:11.9341	Agent Gaze to Other:	17
+11:34:12.3484	User Gaze Shift:	17
+11:34:12.3494	Shared Other Gaze Start:	17
+11:34:12.6336	User Gaze Shift:	18
+11:34:12.6336	Shared Gaze End:	300.731802359223ms
+11:34:12.8198	Agent Gaze to User
+11:34:13.3543	Speech End:	3_HS_Refinement_7
+11:34:13.8547	Phase Start:	Monitor
+11:34:13.9397	Agent Gaze to Reference:	18
+11:34:13.9568	Shared Reference Gaze Start:	18
+11:34:13.9727	User Gaze Shift:	0
+11:34:13.9727	Shared Gaze End:	33.5828792303801ms
+11:34:14.3742	User Gaze Shift:	18
+11:34:14.3742	Shared Reference Gaze Start:	18
+11:34:14.7404	User Gaze Shift:	0
+11:34:14.7404	Shared Gaze End:	384.071943350136ms
+11:34:14.9896	User Gaze Shift:	12
+11:34:15.7233	Correct Action Performed:	7	10917.1594ms
+11:34:15.7233	Phase Start:	Action
+11:34:16.1388	Agent Gaze to Other:	5
+11:34:17.1105	Agent Gaze to Other:	8
+11:34:17.2406	User Gaze Shift:	17
+11:34:17.3597	User Gaze Shift:	0
+11:34:17.6138	User Gaze Shift:	10
+11:34:17.7289	Reference-Action Sequence End:	7
+11:34:17.7299	Reference-Action Sequence Start:	8
+11:34:17.7299	Reference Object:	8
+11:34:17.7299	Ambiguous Objects:	11
+11:34:17.7299	Phase Start:	PreReference
+11:34:17.9991	Agent Gaze to Reference:	8
+11:34:18.0171	Agent Gaze to Other:	5
+11:34:18.3014	User Gaze Shift:	16
+11:34:18.5015	User Gaze Shift:	15
+11:34:18.6997	User Gaze Shift:	0
+11:34:18.7347	Speech Start:	3_HS_PreReference_8
+11:34:18.8518	Agent Gaze to Reference:	8
+11:34:18.8688	Agent Gaze to Other:	10
+11:34:19.1171	User Gaze Shift:	19
+11:34:19.3013	Speech End:	3_HS_PreReference_8
+11:34:19.3023	Phase Start:	Reference
+11:34:19.3023	Speech Start:	3_HS_Reference_8
+11:34:19.3853	Agent Gaze to Reference:	8
+11:34:19.4053	Agent Gaze to User
+11:34:19.4203	Mutual Gaze Start
+11:34:19.8387	User Gaze Shift:	0
+11:34:19.8387	Mutual Gaze End:	434.055011719465ms
+11:34:20.4461	Speech End:	3_HS_Reference_8
+11:34:20.7163	Agent Gaze to Reference:	8
+11:34:20.9485	Phase Start:	Monitor
+11:34:21.3678	User Gaze Shift:	8
+11:34:21.3688	Shared Reference Gaze Start:	8
+11:34:21.5529	Agent Gaze to User
+11:34:21.5660	Shared Gaze End:	213.916364125907ms
+11:34:21.6360	User Gaze Shift:	10
+11:34:21.7351	User Gaze Shift:	0
+11:34:21.8693	User Gaze Shift:	11
+11:34:21.9844	User Gaze Shift:	17
+11:34:22.1045	User Gaze Shift:	0
+11:34:22.9063	User Gaze Shift:	17
+11:34:23.0034	User Gaze Shift:	12
+11:34:23.2225	User Gaze Shift:	0
+11:34:23.4256	Correct Action Performed:	8	2979.5374ms
+11:34:23.4266	Phase Start:	Action
+11:34:24.0632	Agent Gaze to Other:	11
+11:34:24.9710	User Gaze Shift:	19
+11:34:25.4354	Reference-Action Sequence End:	8
+11:34:25.4364	Reference-Action Sequence Start:	9
+11:34:25.4364	Reference Object:	5
+11:34:25.4364	Ambiguous Objects:	
+11:34:25.4364	Phase Start:	PreReference
+11:34:25.7726	Agent Gaze to Other:	4
+11:34:26.3893	Agent Gaze to Other:	10
+11:34:26.4393	Speech Start:	3_HS_PreReference_9
+11:34:26.7386	Agent Gaze to Other:	10
+11:34:27.0240	Speech End:	3_HS_PreReference_9
+11:34:27.0240	Phase Start:	Reference
+11:34:27.0240	Speech Start:	3_HS_Reference_9
+11:34:27.1591	Agent Gaze to Other:	11
+11:34:27.3553	User Gaze Shift:	0
+11:34:27.6065	User Gaze Shift:	10
+11:34:27.7416	User Gaze Shift:	11
+11:34:27.7416	Shared Other Gaze Start:	11
+11:34:27.7576	Speech End:	3_HS_Reference_9
+11:34:27.8457	Agent Gaze to Other:	10
+11:34:27.8577	Shared Gaze End:	132.292728871107ms
+11:34:27.9948	User Gaze Shift:	16
+11:34:28.2620	Phase Start:	Monitor
+11:34:28.3141	Agent Gaze to User
+11:34:28.3791	User Gaze Shift:	17
+11:34:28.6323	User Gaze Shift:	16
+11:34:28.7134	User Gaze Shift:	15
+11:34:28.9807	User Gaze Shift:	9
+11:34:29.2319	User Gaze Shift:	3
+11:34:29.3810	User Gaze Shift:	4
+11:34:29.4991	User Gaze Shift:	5
+11:34:29.7165	User Gaze Shift:	11
+11:34:29.9196	Agent Gaze to Reference:	5
+11:34:30.1348	User Gaze Shift:	17
+11:34:30.2529	User Gaze Shift:	15
+11:34:30.5041	User Gaze Shift:	16
+11:34:30.6213	User Gaze Shift:	12
+11:34:31.1919	Agent Gaze to User
+11:34:31.6262	Correct Action Performed:	9	3868.5981ms
+11:34:31.6262	Phase Start:	Action
+11:34:32.1146	User Gaze Shift:	11
+11:34:32.2337	User Gaze Shift:	0
+11:34:32.3158	Agent Gaze to Other:	4
+11:34:32.3308	Agent Gaze to Other:	15
+11:34:32.3639	User Gaze Shift:	15
+11:34:32.3639	Shared Other Gaze Start:	15
+11:34:32.4810	User Gaze Shift:	14
+11:34:32.4810	Shared Gaze End:	132.879812270403ms
+11:34:32.9985	User Gaze Shift:	19
+11:34:33.2370	Agent Gaze to Target:	12
+11:34:33.3691	User Gaze Shift:	0
+11:34:33.5032	User Gaze Shift:	19
+11:34:33.6413	Reference-Action Sequence End:	9
+11:34:33.6413	Reference-Action Sequence Start:	10
+11:34:33.6413	Reference Object:	2
+11:34:33.6413	Ambiguous Objects:	17
+11:34:33.6413	Phase Start:	PreReference
+11:34:33.7434	User Gaze Shift:	0
+11:34:33.8785	User Gaze Shift:	19
+11:34:34.1137	User Gaze Shift:	0
+11:34:34.4970	User Gaze Shift:	19
+11:34:34.6141	User Gaze Shift:	0
+11:34:34.6491	Speech Start:	3_HS_PreReference_10
+11:34:34.7162	User Gaze Shift:	19
+11:34:34.8333	Agent Gaze to Other:	15
+11:34:35.1475	User Gaze Shift:	0
+11:34:35.2647	User Gaze Shift:	19
+11:34:35.3697	Agent Gaze to Reference:	2
+11:34:35.3848	Agent Gaze to Other:	10
+11:34:35.8171	Agent Gaze to Other:	15
+11:34:36.3165	Agent Gaze to Reference:	2
+11:34:37.1311	Speech End:	3_HS_PreReference_10
+11:34:37.1322	Phase Start:	Reference
+11:34:37.1322	Speech Start:	3_HS_Reference_10
+11:34:37.3513	User Gaze Shift:	0
+11:34:37.9978	User Gaze Shift:	19
+11:34:38.1340	User Gaze Shift:	0
+11:34:38.3872	Agent Gaze to Other:	14
+11:34:38.6205	Speech End:	3_HS_Reference_10
+11:34:38.8697	User Gaze Shift:	16
+11:34:38.9659	User Gaze Shift:	0
+11:34:39.0709	Agent Gaze to Reference:	2
+11:34:39.1030	User Gaze Shift:	17
+11:34:39.1370	Phase Start:	Monitor
+11:34:39.3692	User Gaze Shift:	0
+11:34:39.6043	User Gaze Shift:	19
+11:34:39.7234	User Gaze Shift:	0
+11:34:40.6454	Agent Gaze to Other:	15
+11:34:40.7274	User Gaze Shift:	8
+11:34:40.8785	User Gaze Shift:	2
+11:34:41.1287	User Gaze Shift:	14
+11:34:41.2438	User Gaze Shift:	0
+11:34:41.2948	Agent Gaze to User
+11:34:42.9763	Agent Gaze to Reference:	2
+11:34:43.9800	Agent Gaze to User
+11:34:45.9007	User Gaze Shift:	14
+11:34:46.0017	User Gaze Shift:	0
+11:34:46.0858	Agent Gaze to Reference:	2
+11:34:46.1038	User Gaze Shift:	8
+11:34:46.2219	User Gaze Shift:	0
+11:34:47.0846	Agent Gaze to Other:	1
+11:34:47.3678	User Gaze Shift:	12
+11:34:47.4880	User Gaze Shift:	0
+11:34:47.5730	Agent Gaze to Other:	15
+11:34:48.1045	Correct Action Performed:	10	9484.0127ms
+11:34:48.1055	Phase Start:	Action
+11:34:48.3927	User Gaze Shift:	12
+11:34:48.4788	Agent Gaze to Target:	12
+11:34:48.4948	Shared Target Gaze Start:	12
+11:34:48.7591	User Gaze Shift:	11
+11:34:48.7601	Shared Gaze End:	283.010472543538ms
+11:34:48.8772	User Gaze Shift:	12
+11:34:48.8772	Shared Target Gaze Start:	12
+11:34:49.2445	User Gaze Shift:	0
+11:34:49.2445	Shared Gaze End:	382.650624029338ms
+11:34:49.7108	User Gaze Shift:	19
+11:34:49.7959	Agent Gaze to Other:	1
+11:34:50.1112	Reference-Action Sequence End:	10
+11:34:50.1122	Reference-Action Sequence Start:	11
+11:34:50.1122	Reference Object:	11
+11:34:50.1122	Ambiguous Objects:	
+11:34:50.1122	Phase Start:	PreReference
+11:34:50.9448	Agent Gaze to Reference:	11
+11:34:50.9638	Agent Gaze to Other:	17
+11:34:51.1131	Speech Start:	3_HS_PreReference_11
+11:34:51.6979	Agent Gaze to Other:	10
+11:34:52.1343	Agent Gaze to Other:	10
+11:34:52.3514	Agent Gaze to Other:	4
+11:34:52.3654	User Gaze Shift:	0
+11:34:52.4805	User Gaze Shift:	19
+11:34:52.7167	Agent Gaze to Reference:	11
+11:34:54.1800	Speech End:	3_HS_PreReference_11
+11:34:54.1810	Phase Start:	Reference
+11:34:54.1810	Speech Start:	3_HS_Reference_11
+11:34:54.3512	Agent Gaze to User
+11:34:54.3682	Mutual Gaze Start
+11:34:54.5003	User Gaze Shift:	0
+11:34:54.5003	Mutual Gaze End:	150.132300332189ms
+11:34:54.6173	User Gaze Shift:	19
+11:34:54.6173	Mutual Gaze Start
+11:34:55.7697	User Gaze Shift:	0
+11:34:55.7697	Mutual Gaze End:	1168.52981131524ms
+11:34:55.7717	Agent Gaze to Other:	14
+11:34:55.9549	Speech End:	3_HS_Reference_11
+11:34:56.2062	Agent Gaze to Reference:	11
+11:34:56.3744	User Gaze Shift:	11
+11:34:56.3744	Shared Reference Gaze Start:	11
+11:34:56.4555	Phase Start:	Monitor
+11:34:57.3903	User Gaze Shift:	12
+11:34:57.3913	Shared Gaze End:	1034.94056221098ms
+11:34:57.8296	Agent Gaze to Other:	15
+11:34:58.4943	Correct Action Performed:	11	2538.3717ms
+11:34:58.4953	Phase Start:	Action
+11:34:58.6795	Agent Gaze to User
+11:34:59.1269	User Gaze Shift:	10
+11:34:59.2259	User Gaze Shift:	0
+11:34:59.3740	User Gaze Shift:	9
+11:34:59.4431	Agent Gaze to Other:	14
+11:34:59.6283	User Gaze Shift:	0
+11:34:59.8134	Agent Gaze to Other:	1
+11:34:59.9956	User Gaze Shift:	19
+11:35:00.4949	Reference-Action Sequence End:	11
+11:35:00.4959	Reference-Action Sequence Start:	12
+11:35:00.4959	Reference Object:	17
+11:35:00.4959	Ambiguous Objects:	
+11:35:00.4959	Phase Start:	PreReference
+11:35:00.6790	Agent Gaze to Reference:	17
+11:35:01.5096	Speech Start:	3_HS_PreReference_12
+11:35:02.0322	Agent Gaze to Other:	15
+11:35:02.6666	Agent Gaze to Other:	1
+11:35:03.0969	Speech End:	3_HS_PreReference_12
+11:35:03.0979	Phase Start:	Reference
+11:35:03.0979	Speech Start:	3_HS_Reference_12
+11:35:03.4682	Agent Gaze to Other:	1
+11:35:03.8565	Agent Gaze to Other:	1
+11:35:04.1938	Agent Gaze to Other:	14
+11:35:04.6142	Agent Gaze to Reference:	17
+11:35:05.2529	Speech End:	3_HS_Reference_12
+11:35:05.4881	User Gaze Shift:	0
+11:35:05.7583	Phase Start:	Monitor
+11:35:05.8764	User Gaze Shift:	10
+11:35:06.1407	User Gaze Shift:	17
+11:35:06.1407	Shared Reference Gaze Start:	17
+11:35:06.5760	Agent Gaze to Other:	10
+11:35:06.5900	Shared Gaze End:	465.8347601071ms
+11:35:07.1125	User Gaze Shift:	11
+11:35:07.3807	User Gaze Shift:	0
+11:35:07.4997	Agent Gaze to Other:	4
+11:35:07.6348	User Gaze Shift:	12
+11:35:08.0032	Correct Action Performed:	12	2750.3002ms
+11:35:08.0032	Phase Start:	Action
+11:35:08.1723	Agent Gaze to Other:	10
+11:35:08.8880	User Gaze Shift:	17
+11:35:08.9871	User Gaze Shift:	0
+11:35:09.0571	Agent Gaze to Other:	15
+11:35:09.1202	User Gaze Shift:	10
+11:35:09.2403	User Gaze Shift:	15
+11:35:09.2413	Shared Other Gaze Start:	15
+11:35:09.3904	User Gaze Shift:	0
+11:35:09.3914	Shared Gaze End:	166.594067588449ms
+11:35:09.7396	User Gaze Shift:	19
+11:35:10.0078	Reference-Action Sequence End:	12
+11:35:10.0088	Speech Start:	3_HS_outro
+11:35:10.6403	Agent Gaze to Other:	15
+11:35:11.4129	Agent Gaze to Other:	10
+11:35:12.2256	Agent Gaze to Other:	15
+11:35:12.9742	Speech End:	3_HS_outro
+11:35:12.9752	Sandwich End:	3_HS
+
+
+11:35:19.0767	Speech Start:	outro
+11:35:25.7534	Speech End:	outro
+11:42:02.3928	End of Log
