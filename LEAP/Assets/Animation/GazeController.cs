@@ -48,7 +48,7 @@ public class GazeController : AnimController
 	/// them when performing the gaze shift; otherwise it will only
 	/// move the eyes and head.
 	/// </summary>
-	public bool useTorso = true;
+	private bool useTorso = true;
 	
 	/// <summary>
 	/// Predictability of the gaze target (0-1). 
@@ -295,6 +295,7 @@ public class GazeController : AnimController
 	public virtual int LastGazeJointIndex
 	{
 		get { return curUseTorso ? gazeJoints.Length - 1: torsoIndex - 1; }
+        //get { return gazeJoints.Length - 1; }
 	}
 	
 	/// <summary>

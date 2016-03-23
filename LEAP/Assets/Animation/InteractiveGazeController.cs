@@ -26,8 +26,7 @@ public enum InteractiveGazeCondition
 	RandomGaze,
 	NoGazeDetection,
 	NoGazeProduction,
-	FullModel,
-	FullModel_HeadTracked
+	FullModel
 };
 
 //Each reference-action sequence is divided into several phases
@@ -47,6 +46,9 @@ public class InteractiveGazeController : AnimController
 	protected GazeController gazeCtrl = null;
 	protected AsynchronousSocketListener gazeListener = null;
 	protected HeadGazeTracker headGazeCtrl = null;
+    private OculusGazeTracker oculusGazeTracker = null;
+    public bool useHeadTracker = false;
+    public bool useOculus = false;
 
 	//important grid indices
 	protected GameObject[] gridTargets = null;
@@ -58,7 +60,7 @@ public class InteractiveGazeController : AnimController
 	//private int currentUserGaze = 0; //0 - "no" gaze, 1-18 - grid targets, 19 - agent
 	private List<int> currentUserGaze = new List<int>();
 	private int currentAgentGaze = 0;
-	private InteractiveGazeCondition condition = InteractiveGazeCondition.None;
+	public InteractiveGazeCondition condition = InteractiveGazeCondition.None;
 	protected InteractiveGazeState gazeState = InteractiveGazeState.PersonGaze;
 	public ReferencePhase phase = ReferencePhase.None;
 
@@ -108,6 +110,7 @@ public class InteractiveGazeController : AnimController
 				gazeListener = asl;
 			}
 		}
+        oculusGazeTracker = gameObject.GetComponent<OculusGazeTracker>();
 
 		//Initialize distributions
 		randNumGen = new MersenneTwisterRandomSource();
@@ -145,34 +148,17 @@ public class InteractiveGazeController : AnimController
 		}
 	}
 
-	public void setCondition(InteractiveGazeCondition c)
-	{
-		condition = c;
-		
-        if (condition == InteractiveGazeCondition.FullModel_HeadTracked)
-		{
-            headGazeCtrl.StartCalibration();
-		}
-
-        if (condition == InteractiveGazeCondition.FullModel || condition == InteractiveGazeCondition.NoGazeProduction)
-        {
-            gazeListener.enabled = true;
-        } 
-        else
-        {
-            gazeListener.enabled = false;
-        }
-	}
-
-    public InteractiveGazeCondition getCondition()
+    public void StartHeadTrackerCalibration()
     {
-        return condition;
+        if (headGazeCtrl != null)
+        {
+            headGazeCtrl.StartCalibration();
+        }
     }
 
     private bool CurrentConditionHasGazeOutput()
     {
-        if (condition == InteractiveGazeCondition.FullModel || condition == InteractiveGazeCondition.FullModel_HeadTracked ||
-            condition == InteractiveGazeCondition.NoGazeDetection || condition == InteractiveGazeCondition.RandomGaze)
+        if (condition == InteractiveGazeCondition.FullModel || condition == InteractiveGazeCondition.NoGazeDetection || condition == InteractiveGazeCondition.RandomGaze)
         {
             return true;
         }
@@ -184,8 +170,7 @@ public class InteractiveGazeController : AnimController
 
     private bool CurrentConditionHasGazeInput()
     {
-        if (condition == InteractiveGazeCondition.FullModel || condition == InteractiveGazeCondition.FullModel_HeadTracked ||
-            condition == InteractiveGazeCondition.NoGazeProduction)
+        if (condition == InteractiveGazeCondition.FullModel || condition == InteractiveGazeCondition.NoGazeProduction)
         {
             return true;
         }
@@ -344,7 +329,15 @@ public class InteractiveGazeController : AnimController
 	//Gaze tracker messages are streaming in of the form 'Grid: XX', denoting the grid cell currently being gazed at.
 	//The gaze tracker counts from 0, which must be adjusted for. 99 means gaze to the agent, and -1 means there is gaze to no grid locations.
 	private int parseContent() {
-		if ((condition != InteractiveGazeCondition.FullModel_HeadTracked) && gazeListener != null)
+		if (useOculus && oculusGazeTracker != null)
+        {
+            return oculusGazeTracker.getGridLocation();
+        }
+        else if (useHeadTracker && headGazeCtrl != null)
+        {
+            return headGazeCtrl.getGridLocation();
+        }
+        else if (gazeListener != null)
 		{
 			string currentContent = gazeListener.SocketContent;
 			if (currentContent.Length < 7) {
@@ -409,10 +402,6 @@ public class InteractiveGazeController : AnimController
 				return 0;
 			}
 		}
-		else if ((condition == InteractiveGazeCondition.FullModel_HeadTracked) && headGazeCtrl != null)
-		{
-			return headGazeCtrl.getGridLocation();
-		}
 		else
 		{
 			return 0;
@@ -426,7 +415,7 @@ public class InteractiveGazeController : AnimController
 	{
 		currentUserGaze.Clear();
 		//no gaze or agent-directed gaze. just use that.
-		if ((condition != InteractiveGazeCondition.FullModel_HeadTracked) || gazePoint == 0 || gazePoint == 19)
+		if (gazePoint == 0 || gazePoint == 19 || (!useOculus && !useHeadTracker))
 		{
 			currentUserGaze.Add (gazePoint);
 			return;
@@ -459,6 +448,11 @@ public class InteractiveGazeController : AnimController
 				currentUserGaze.Add (gazePoint - 7);
 		}
 	}
+
+    public List<int> GetCurrentUserGaze()
+    {
+        return currentUserGaze;
+    }
 
 	protected override void _Update()
 	{

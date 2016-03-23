@@ -27,11 +27,17 @@ public class EyeLaserGizmo : MonoBehaviour
 	/// If true, eye laser is shown from the torso.
 	/// </summary>
 	public bool showTorsoLaser = false;
+
+    /// <summary>
+    /// If true, eye laser is shown from the oculus.
+    /// </summary>
+    public bool showOculusLaser = false;
 	
 	public Color gazeLaserColor = Color.magenta;
 	public Color eyeLaserColor = Color.red;
 	public Color headLaserColor = Color.blue;
 	public Color torsoLaserColor = Color.blue;
+    public Color oculusLaserColor = Color.green;
 	
 	// TODO: remove this
 	/*public Vector3 lWristPosW0 = Vector3.zero;
@@ -170,6 +176,16 @@ public class EyeLaserGizmo : MonoBehaviour
 			Gizmos.color = torsoLaserColor;
 			Gizmos.DrawRay(gctrl.Torso.bone.position, gctrl.Torso.Direction * gazetargetDist);
 		}
+
+        if (showOculusLaser)
+        {
+            OculusGazeTracker oculusGazeTracker = GetComponent<OculusGazeTracker>();
+            if (oculusGazeTracker != null)
+            {
+                Gizmos.color = oculusLaserColor;
+                Gizmos.DrawRay(oculusGazeTracker.GetUserHeadPosition(), oculusGazeTracker.GetUserHeadDirection().normalized * gazetargetDist);
+            }
+        }
 	}
 }
 

@@ -1,0 +1,82 @@
+14:15:41.2780	Speech Start:	intro
+14:16:01.3910	Speech End:	intro
+14:16:01.8951	Condition:	FullModel
+
+14:16:01.8961	Sandwich Start:	2_TS
+14:16:01.8961	Speech Start:	2_TS_intro
+14:16:04.2643	Speech End:	2_TS_intro
+14:16:04.2643	Reference-Action Sequence Start:	1
+14:16:04.2653	Reference Object:	13
+14:16:04.2663	Ambiguous Objects:	4
+14:16:04.2663	Phase Start:	PreReference
+14:16:04.2733	Agent Gaze to Other:	7
+14:16:05.0104	Agent Gaze to Reference:	13
+14:16:05.0174	Agent Gaze to Other:	11
+14:16:05.2684	Agent Gaze to Reference:	13
+14:16:05.2684	Speech Start:	2_TS_PreReference_1
+14:16:07.1856	Speech End:	2_TS_PreReference_1
+14:16:07.1856	Phase Start:	Reference
+14:16:07.1856	Speech Start:	2_TS_Reference_1
+14:16:07.8897	Speech End:	2_TS_Reference_1
+14:16:08.0147	Agent Gaze to Other:	9
+14:16:08.3907	Phase Start:	Monitor
+14:16:09.1598	Agent Gaze to Reference:	13
+14:16:09.1728	Agent Gaze to Other:	8
+14:16:09.5239	Agent Gaze to Other:	6
+14:16:09.6999	Agent Gaze to Reference:	13
+14:16:10.4780	Agent Gaze to Other:	6
+14:16:11.7471	Agent Gaze to Reference:	13
+14:16:15.1474	Agent Gaze to Ambiguous:	4
+14:16:16.2665	Agent Gaze to Other:	9
+14:16:17.1256	Agent Gaze to Other:	8
+14:16:17.8777	Agent Gaze to Reference:	13
+14:16:19.3908	Agent Gaze to Other:	17
+14:16:20.4279	Agent Gaze to Reference:	13
+14:16:21.9181	Agent Gaze to Ambiguous:	4
+14:16:22.8842	Agent Gaze to Reference:	13
+14:16:24.4053	Agent Gaze to User
+14:16:26.6546	Agent Gaze to Reference:	13
+14:16:29.0388	Agent Gaze to Other:	11
+14:16:31.0140	Agent Gaze to Ambiguous:	4
+14:16:31.8221	Agent Gaze to Other:	5
+14:16:32.7582	Agent Gaze to Other:	3
+14:16:33.5443	Agent Gaze to Reference:	13
+14:16:34.6034	Agent Gaze to Other:	8
+14:16:35.5695	Agent Gaze to Reference:	13
+14:16:37.7127	Agent Gaze to Other:	16
+14:16:39.2608	Agent Gaze to Reference:	13
+14:16:40.8400	Agent Gaze to Other:	17
+14:16:42.3751	Agent Gaze to Other:	4
+14:16:43.0872	Agent Gaze to Reference:	13
+14:16:45.0504	Agent Gaze to User
+14:16:46.9586	Agent Gaze to Other:	2
+14:16:48.3357	Agent Gaze to Other:	1
+14:16:48.8478	Agent Gaze to User
+14:16:50.4700	Agent Gaze to Reference:	13
+14:16:52.0391	Agent Gaze to User
+14:16:54.1003	Agent Gaze to Other:	15
+14:16:54.5914	Agent Gaze to Other:	8
+14:16:55.9375	Agent Gaze to Reference:	13
+14:16:55.9555	Agent Gaze to Other:	6
+14:16:56.8786	Agent Gaze to Reference:	13
+14:16:59.0458	Agent Gaze to Other:	14
+14:16:59.8009	Agent Gaze to Reference:	13
+14:17:01.9221	Agent Gaze to User
+14:17:04.0703	Agent Gaze to Reference:	13
+14:17:06.3795	Agent Gaze to User
+14:17:08.9568	Agent Gaze to Reference:	13
+14:17:10.0619	Agent Gaze to User
+14:17:12.3971	Agent Gaze to Other:	3
+14:17:13.0762	Agent Gaze to Reference:	13
+14:17:14.3403	Agent Gaze to Other:	4
+14:17:14.3613	Agent Gaze to Reference:	13
+14:17:15.0334	Agent Gaze to User
+14:17:16.4926	Agent Gaze to Other:	14
+14:17:17.2846	Agent Gaze to Reference:	13
+14:17:19.4378	Agent Gaze to Other:	10
+14:17:20.1119	Agent Gaze to Reference:	13
+14:17:23.3842	Agent Gaze to User
+14:17:25.0464	Agent Gaze to Reference:	13
+14:17:26.6076	Agent Gaze to Other:	14
+14:17:27.9507	Agent Gaze to Reference:	13
+14:17:28.0247	End of Log

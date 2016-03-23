@@ -411,8 +411,8 @@ public class SandwichScenario : Scenario
 			yield return StartCoroutine(SpeakAndWait("intro"));
 			yield return new WaitForSeconds(0.5f);
 
-            intGazeCtrl.setCondition(c);
-			LogStream.WriteLine(String.Format ("{0:HH:mm:ss.ffff}\tCondition:\t{1}", DateTime.Now, intGazeCtrl.getCondition().ToString()));
+            intGazeCtrl.condition = c;
+			LogStream.WriteLine(String.Format ("{0:HH:mm:ss.ffff}\tCondition:\t{1}", DateTime.Now, intGazeCtrl.condition.ToString()));
 			intGazeCtrl.changePhase(ReferencePhase.None);
 			actionPerformed = false;
 			for (int setIndex = 0; setIndex < 1; setIndex++)

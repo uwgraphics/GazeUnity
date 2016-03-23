@@ -38,7 +38,7 @@ public class SandwichScenario2 : Scenario
 	private string sandwichBaseString = "";
 	private string nextSandwichLongName = "";
 	private List<Sandwich> sandwiches = null;
-	private List<InteractiveGazeCondition> conditions = null;
+	private List<SandwichScenarioCondition> conditions = null;
 	private int currentSandwichIndex = 0;
 
 	private List<int> visibleGridCells = new List<int>();
@@ -54,6 +54,13 @@ public class SandwichScenario2 : Scenario
 	private float refinementRefreshPeriod = 3f;
 
     private bool agentSpeechInProgress = false;
+
+    private enum SandwichScenarioCondition
+    {
+        NoGazeInput,
+        GazeTracker,
+        HeadTracker
+    }
 
 	/// <see cref="Scenario._Init()"/>
 	protected override void _Init()
@@ -123,7 +130,7 @@ public class SandwichScenario2 : Scenario
 		sandwiches.Add(hamSpecial);
         sandwiches.Add(baconSpecial);
 
-		//shuffle up the sandwiches into a random order
+		//shuffle up the sandwiches into a random order (except for the first, which we need to know)
 		System.Random rnd = new System.Random();
 		for(int i=1; i < sandwiches.Count; i++)
 		{
@@ -135,15 +142,16 @@ public class SandwichScenario2 : Scenario
 		nextSandwichLongName = sandwiches[0].longName;
 
 		//setup the conditions
-		conditions = new List<InteractiveGazeCondition>();
-        conditions.Add(InteractiveGazeCondition.FullModel_HeadTracked);
-		conditions.Add(InteractiveGazeCondition.FullModel);
-		conditions.Add(InteractiveGazeCondition.NoGazeDetection);
+		conditions = new List<SandwichScenarioCondition>();
+        conditions.Add(SandwichScenarioCondition.NoGazeInput);
+        conditions.Add(SandwichScenarioCondition.GazeTracker);
+        conditions.Add(SandwichScenarioCondition.HeadTracker);
 
+        //shuffle
 		for(int i=0; i < conditions.Count; i++)
 		{
 			int j = rnd.Next(i, conditions.Count);
-			InteractiveGazeCondition temp = conditions[i];
+            SandwichScenarioCondition temp = conditions[i];
 			conditions[i] = conditions[j];
 			conditions[j] = temp;
 		}
@@ -195,23 +203,30 @@ public class SandwichScenario2 : Scenario
 
 		//Iterate through each of the conditions
 		currentSandwichIndex = 0;
-		foreach(InteractiveGazeCondition c in conditions)
+		foreach(SandwichScenarioCondition c in conditions)
 		{
-            intGazeCtrl.setCondition(c);
-
             nextSandwichLongName = sandwiches[currentSandwichIndex].longName;
-            if (c == InteractiveGazeCondition.FullModel)
+
+            if (c == SandwichScenarioCondition.GazeTracker)
             {
                 GameObject.Find ("ConditionText").guiText.text = "Condition: GT";
+                intGazeCtrl.condition = InteractiveGazeCondition.FullModel;
+                intGazeCtrl.useHeadTracker = false;
             }
-            else if (c == InteractiveGazeCondition.FullModel_HeadTracked)
+            else if (c == SandwichScenarioCondition.HeadTracker)
             {
                 GameObject.Find ("ConditionText").guiText.text = "Condition: HT";
+                intGazeCtrl.condition = InteractiveGazeCondition.FullModel;
+                intGazeCtrl.useHeadTracker = true;
+                intGazeCtrl.StartHeadTrackerCalibration();
             }
-            else
+            else if (c == SandwichScenarioCondition.NoGazeInput)
             {
                 GameObject.Find ("ConditionText").guiText.text = "Condition: NT";
+                intGazeCtrl.condition = InteractiveGazeCondition.NoGazeDetection;
+                intGazeCtrl.useHeadTracker = false;
             }
+
             GameObject.Find ("ConditionText").guiText.enabled = true;
             startScenario = false;
             while (!startScenario) {
@@ -230,7 +245,7 @@ public class SandwichScenario2 : Scenario
 			yield return StartCoroutine(SpeakAndWait("intro"));
 			yield return new WaitForSeconds(0.5f);
 
-			LogStream.WriteLine(String.Format ("{0:HH:mm:ss.ffff}\tCondition:\t{1}", DateTime.Now, intGazeCtrl.getCondition().ToString()));
+			LogStream.WriteLine(String.Format ("{0:HH:mm:ss.ffff}\tCondition:\t{1}", DateTime.Now, intGazeCtrl.condition.ToString()));
 			intGazeCtrl.changePhase(ReferencePhase.None);
 			actionPerformed = false;
 
