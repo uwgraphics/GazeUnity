@@ -31,6 +31,7 @@ public class SandwichScenario_Oculus : Scenario
 	private string sandwichBaseString = "";
 	private List<Sandwich> sandwiches = null;
 	private int currentSandwichIndex = 0;
+    private bool startScenario = false;
 
 	private List<int> visibleGridCells = new List<int>();
 	private int refinementBeginningIndex = 1;
@@ -175,15 +176,20 @@ public class SandwichScenario_Oculus : Scenario
                 GameObject.Find(ingredientName).transform.position = gridTargets[i - 1].transform.position;
             }
 
+            startScenario = false;
+            while (!startScenario)
+            {
+                yield return 0;
+            }
+
             GameObject.Find("FinalInstructions").guiText.enabled = false;
-            yield return new WaitForSeconds (5f);
 
             //bring the lights back up
             for (int i = 0; i < lights.Length; ++i) {
                 lights[i].light.intensity = lightIntensities[i];
             }
 
-			//yield return new WaitForSeconds(1f);
+			yield return new WaitForSeconds(1f);
 			//yield return StartCoroutine(SpeakAndWait("intro"));
 			//yield return new WaitForSeconds(0.5f);
 
@@ -259,6 +265,7 @@ public class SandwichScenario_Oculus : Scenario
         if (Input.GetButton("Fire1"))
         {
             OVRManager.display.RecenterPose();
+            startScenario = true;
         }
         
         //Periodic smiles and eyebrow raises to increase lifelikeness
