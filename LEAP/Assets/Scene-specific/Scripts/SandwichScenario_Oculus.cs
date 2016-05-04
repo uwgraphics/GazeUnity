@@ -11,7 +11,7 @@ using System.Linq;
 
 public class SandwichScenario_Oculus : Scenario
 {
-	private string agentName = "Jason";
+	public string agentName = "Jason";
 	
 	//the relevant controllers
 	private AsynchronousSocketListener listenSocket;
@@ -26,12 +26,23 @@ public class SandwichScenario_Oculus : Scenario
 	private double nextSmileCounter = 0;
 	private double nextSmileTime = 0;
 
+    private StreamWriter LogStream = null;
+    private DateTime ReferenceToActionStartTime = DateTime.MinValue;
+
 	private bool actionPerformed = false;
 	private int currentReferenceNumber = 0;
 	private string sandwichBaseString = "";
 	private List<Sandwich> sandwiches = null;
 	private int currentSandwichIndex = 0;
     private bool startScenario = false;
+
+    public enum OculusCondition
+    {
+        WarmUp,
+        ResponsiveGaze,
+        UnresponsiveGaze
+    }
+    public OculusCondition condition = OculusCondition.WarmUp;
 
 	private List<int> visibleGridCells = new List<int>();
 	private int refinementBeginningIndex = 1;
@@ -129,11 +140,24 @@ public class SandwichScenario_Oculus : Scenario
 		sandwiches.Add(hamSpecial);
         sandwiches.Add(roastBeefSpecial);
 
+        //shuffle up the sandwiches into a random order
+        /*System.Random rnd = new System.Random();
+        for (int i = 0; i < sandwiches.Count; i++)
+        {
+            int j = rnd.Next(i, sandwiches.Count);
+            Sandwich temp = sandwiches[i];
+            sandwiches[i] = sandwiches[j];
+            sandwiches[j] = temp;
+        }*/
+
         ingredientStartingPositions = new List<Vector3>();
         for (int i = 0; i < GameObject.Find("SandwichIngredients").transform.childCount; i++ )
         {
             ingredientStartingPositions.Add(GameObject.Find("SandwichIngredients").transform.GetChild(i).position);
         }
+
+        GameObject finalInstructions = GameObject.Find("FinalInstructions");
+        finalInstructions.SetActive(false);
 
         //Find the relevant controllers
         intGazeCtrl = agents[agentName].GetComponent<InteractiveGazeController>();
@@ -161,103 +185,153 @@ public class SandwichScenario_Oculus : Scenario
         curgaze = GazeAt(agentName, intGazeCtrl.mutualGazeObject, 1.0f, 0f);
         yield return StartCoroutine( WaitUntilFinished(curgaze) );
 
-		//Iterate through each of the conditions
-		currentSandwichIndex = 0;
-		foreach(Sandwich s in sandwiches)
+        Sandwich s;
+        if (condition == OculusCondition.WarmUp)
+        {
+            currentSandwichIndex = 3;
+            s = sandwiches[3];
+        }
+        else if (condition == OculusCondition.ResponsiveGaze)
+        {
+            currentSandwichIndex = 0;
+            s = sandwiches[0];
+        }
+        else /*if (condition == OculusCondition.UnresponsiveGaze)*/
+        {
+            currentSandwichIndex = 2;
+            s = sandwiches[2];
+        }
+		
+
+        for (int i = 0; i < GameObject.Find("SandwichIngredients").transform.childCount; i++)
+        {
+            GameObject.Find("SandwichIngredients").transform.GetChild(i).position = ingredientStartingPositions[i];
+        }
+
+        for (int i = 1; i < s.layout.Length; i++ )
+        {
+            string ingredientName = s.layout[i] == SandwichIngredient.Empty ? "Bread" : s.layout[i].ToString();
+            GameObject.Find(ingredientName).transform.position = gridTargets[i - 1].transform.position;
+        }
+
+        startScenario = false;
+        while (!startScenario)
+        {
+            yield return 0;
+        }
+
+        if (!Directory.Exists("./Log"))
+        {
+            Directory.CreateDirectory("./Log");
+        }
+        string Logfile = String.Format("{0:yyyy-MM-dd_HH-mm-ss}.log", DateTime.Now);
+        LogStream = new StreamWriter("Log/" + Logfile, true);
+        LogStream.AutoFlush = true;
+        intGazeCtrl.LogStream = LogStream;
+
+        //bring the lights back up
+        for (int i = 0; i < lights.Length; ++i) {
+            lights[i].light.intensity = lightIntensities[i];
+        }
+
+        curgaze = GazeAt(agentName, intGazeCtrl.mutualGazeObject, 1.0f, 0f);
+        yield return StartCoroutine(WaitUntilFinished(curgaze));
+
+		yield return new WaitForSeconds(5f);
+        curgaze = GazeAt(agentName, intGazeCtrl.mutualGazeObject, 1.0f, 0f);
+        yield return StartCoroutine(WaitUntilFinished(curgaze));
+
+        if (condition != OculusCondition.WarmUp)
+        {
+            yield return StartCoroutine(SpeakAndWait("intro_VR"));
+            yield return new WaitForSeconds(0.5f);
+        }
+		
+		intGazeCtrl.changePhase(ReferencePhase.None);
+		actionPerformed = false;
+
+		sandwichBaseString = s.name;
+
+        curgaze = GazeAt(agentName, intGazeCtrl.mutualGazeObject, 1.0f, 0f);
+        yield return StartCoroutine(WaitUntilFinished(curgaze));
+
+        LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tCondition:\t{1}", DateTime.Now, intGazeCtrl.condition.ToString()));
+        LogStream.WriteLine();
+        LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tSandwich Start:\t{1}", DateTime.Now, sandwichBaseString));
+
+		//give the sandwich intro
+		yield return StartCoroutine(SpeakAndWait(sandwichBaseString + "_intro"));
+
+        curgaze = GazeAt(agentName, intGazeCtrl.mutualGazeObject, 1.0f, 0f);
+        yield return StartCoroutine(WaitUntilFinished(curgaze));
+
+		//iterate through the 10 reference-action sequences for each sandwich
+		sandwichInProgress = true;
+        int numIngredients = (condition == OculusCondition.WarmUp) ? 5 : s.ingredients.Length;
+		for (int i = 0; i < numIngredients; ++i)
 		{
-            for (int i = 0; i < GameObject.Find("SandwichIngredients").transform.childCount; i++)
-            {
-                GameObject.Find("SandwichIngredients").transform.GetChild(i).position = ingredientStartingPositions[i];
-            }
-
-            for (int i = 1; i < s.layout.Length; i++ )
-            {
-                string ingredientName = s.layout[i] == SandwichIngredient.Empty ? "Bread" : s.layout[i].ToString();
-                GameObject.Find(ingredientName).transform.position = gridTargets[i - 1].transform.position;
-            }
-
-            startScenario = false;
-            while (!startScenario)
-            {
-                yield return 0;
-            }
-
-            GameObject.Find("FinalInstructions").guiText.enabled = false;
-
-            //bring the lights back up
-            for (int i = 0; i < lights.Length; ++i) {
-                lights[i].light.intensity = lightIntensities[i];
-            }
-
-			yield return new WaitForSeconds(1f);
-			//yield return StartCoroutine(SpeakAndWait("intro"));
-			//yield return new WaitForSeconds(0.5f);
-
-			intGazeCtrl.changePhase(ReferencePhase.None);
+			currentReferenceNumber = i+1;
+            LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tReference-Action Sequence Start:\t{1}", DateTime.Now, currentReferenceNumber));
+			//set the grid indices for the reference, ambiguous, and other objects
+			intGazeCtrl.setReferenceObject(s.getReferenceObjectCell(i), s.getAmbiguousObjectCells(i), s.getOtherObjectCells(i));
 			actionPerformed = false;
+			//PRE-REFERENCE
+			intGazeCtrl.changePhase(ReferencePhase.PreReference);
+			yield return new WaitForSeconds(1f);
+			intGazeCtrl.triggerReferenceGaze(); //ensures a reference gaze shift leading up to the reference sequence
+			yield return StartCoroutine(SpeakAndWait(sandwichBaseString + "_PreReference_" + currentReferenceNumber));
 
-			sandwichBaseString = s.name;
+			//REFERENCE
+			intGazeCtrl.changePhase(ReferencePhase.Reference);
+			yield return StartCoroutine(SpeakAndWait(sandwichBaseString + "_Reference_" + currentReferenceNumber));
+            timeSinceLastRefinement = 1f;
+			yield return new WaitForSeconds(0.5f);
 
-			//give the sandwich intro
-			yield return StartCoroutine(SpeakAndWait(sandwichBaseString + "_intro"));
-			//iterate through the 10 reference-action sequences for each sandwich
-			sandwichInProgress = true;
-			for (int i = 0; i < s.ingredients.Length; ++i)
-			{
-				currentReferenceNumber = i+1;
-				//set the grid indices for the reference, ambiguous, and other objects
-				intGazeCtrl.setReferenceObject(s.getReferenceObjectCell(i), s.getAmbiguousObjectCells(i), s.getOtherObjectCells(i));
-				actionPerformed = false;
-				//PRE-REFERENCE
-				intGazeCtrl.changePhase(ReferencePhase.PreReference);
-				yield return new WaitForSeconds(1f);
-				intGazeCtrl.triggerReferenceGaze(); //ensures a reference gaze shift leading up to the reference sequence
-				yield return StartCoroutine(SpeakAndWait(sandwichBaseString + "_PreReference_" + currentReferenceNumber));
-
-				//REFERENCE
-				intGazeCtrl.changePhase(ReferencePhase.Reference);
-				yield return StartCoroutine(SpeakAndWait(sandwichBaseString + "_Reference_" + currentReferenceNumber));
-                timeSinceLastRefinement = 1f;
-				yield return new WaitForSeconds(0.5f);
-
-				//MONITOR
-				intGazeCtrl.changePhase(ReferencePhase.Monitor);
-				while (!actionPerformed) {
-					yield return 0;
-				}
-
-				//ACTION
-				intGazeCtrl.changePhase(ReferencePhase.Action);
-				yield return new WaitForSeconds(2f);
-				s.removeReferenceObjectFromLayout(i);
+			//MONITOR
+			intGazeCtrl.changePhase(ReferencePhase.Monitor);
+			while (!actionPerformed) {
+				yield return 0;
 			}
-			sandwichInProgress = false;
-			
-			yield return StartCoroutine(SpeakAndWait(sandwichBaseString + "_outro"));
-			
-			//turn off the lights, reinitialize gaze, and wait for starting the next sandwich
-			intGazeCtrl.changePhase(ReferencePhase.None);
-			curgaze = GazeAt(agentName, intGazeCtrl.mutualGazeObject, 0.8f, 0f);
-			yield return StartCoroutine( WaitUntilFinished(curgaze) );
-			curgaze = GazeAt(agentName, intGazeCtrl.mutualGazeObject, 0.8f, 0f);
-			yield return StartCoroutine( WaitUntilFinished(curgaze) );
-			curgaze = GazeAt(agentName, intGazeCtrl.mutualGazeObject, 1.0f, 0f);
-			yield return StartCoroutine( WaitUntilFinished(curgaze) );
-			for (int i = 0; i < lights.Length; ++i) {
-				lights[i].light.intensity = 0f;	
-			}
+            LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tCorrect Action Performed:\t{1}\t{2}ms", DateTime.Now, currentReferenceNumber,
+                                                       (DateTime.Now - ReferenceToActionStartTime).TotalMilliseconds));
 
-			GameObject.Find ("FinalInstructions").guiText.enabled = true;
-			
-			currentSandwichIndex++;
+			//ACTION
+			intGazeCtrl.changePhase(ReferencePhase.Action);
+			yield return new WaitForSeconds(2f);
+			s.removeReferenceObjectFromLayout(i);
+
+            LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tReference-Action Sequence End:\t{1}", DateTime.Now, currentReferenceNumber));
 		}
+		sandwichInProgress = false;
+
+        intGazeCtrl.changePhase(ReferencePhase.None);
+
+        curgaze = GazeAt(agentName, intGazeCtrl.mutualGazeObject, 1.0f, 0f);
+        yield return StartCoroutine(WaitUntilFinished(curgaze));
+
+        yield return StartCoroutine(SpeakAndWait(sandwichBaseString + "_outro"));
+        LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tSandwich End:\t{1}", DateTime.Now, sandwichBaseString));
+
+        curgaze = GazeAt(agentName, intGazeCtrl.mutualGazeObject, 1.0f, 0f);
+        yield return StartCoroutine(WaitUntilFinished(curgaze));
 
 		//The outro
-		//yield return StartCoroutine(SpeakAndWait("outro"));
-		//yield return new WaitForSeconds(1f);
-		foreach (GameObject g in lights) {
-			g.light.intensity = 0f;	
-		}
+        if (condition != OculusCondition.WarmUp)
+        {
+            yield return StartCoroutine(SpeakAndWait("outro"));
+            yield return new WaitForSeconds(1f);
+        }
+
+        LogStream.WriteLine();
+        LogStream.WriteLine();
+		
+        //turn off the lights
+        for (int i = 0; i < lights.Length; ++i)
+        {
+            lights[i].light.intensity = 0f;
+        }
+
+        finalInstructions.SetActive(true);
 	}
 	
 	void Update() {
@@ -265,9 +339,8 @@ public class SandwichScenario_Oculus : Scenario
         if (Input.GetButton("Fire1"))
         {
             OVRManager.display.RecenterPose();
-            startScenario = true;
         }
-        
+
         //Periodic smiles and eyebrow raises to increase lifelikeness
 		nextSmileCounter += Time.deltaTime;
 		if (nextSmileCounter >= nextSmileTime) {
@@ -307,6 +380,8 @@ public class SandwichScenario_Oculus : Scenario
                         else
                         {
                             visibleGridCells.Add(possibleGazeTargets[0]);
+                            LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tWrong Action Performed:\t{1}\t{2}ms", DateTime.Now, possibleGazeTargets[0],
+                                                               (DateTime.Now - ReferenceToActionStartTime).TotalMilliseconds));
                             StartCoroutine(refinementSequence());
                         }
                     }
@@ -316,10 +391,12 @@ public class SandwichScenario_Oculus : Scenario
 			//The user has asked for clarification during the monitor phase. Offer a refinement.
 			if (speechContent.Contains("clarify"))
 			{
+                LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tUser Speech:\t{1}", DateTime.Now, speechContent));
                 if (!agentSpeechInProgress)
                 {
                     if ((intGazeCtrl.phase == ReferencePhase.Monitor) && (timeSinceLastRefinement > refinementRefreshPeriod))
                     {
+                        LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tSpeech-Triggered Refinement", DateTime.Now));
                         StartCoroutine(refinementSequence());
                         return;
                     }
@@ -329,6 +406,7 @@ public class SandwichScenario_Oculus : Scenario
 			//The interactive gaze controller has flagged the need for a refinement during the monitor phase
 			if (intGazeCtrl.isOfferRefinementFlagSet() && intGazeCtrl.phase == ReferencePhase.Monitor && timeSinceLastRefinement > refinementRefreshPeriod)
 			{
+                LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tGaze-Triggered Refinement", DateTime.Now));
 				StartCoroutine(refinementSequence());
 				return;
 			}
@@ -349,36 +427,28 @@ public class SandwichScenario_Oculus : Scenario
                 movedObject.transform.position = new Vector3(new_x, new_y, new_z);
             }
 		}
+        else if (Input.GetButtonDown("Jump"))
+        {
+            startScenario = true;
+            OVRManager.display.RecenterPose();
+        }
 	}
 
 	// Speak the utterance and wait for it to be finished. Also writes begin and end times to log file.
 	IEnumerator SpeakAndWait(string SpeechFile)
 	{
+        LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tSpeech Start:\t{1}", DateTime.Now, SpeechFile));
         agentSpeechInProgress = true;
 		int curspeak = Speak (agentName, SpeechFile);
 		yield return StartCoroutine(WaitUntilFinished(curspeak));
         agentSpeechInProgress = false;
+        LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tSpeech End:\t{1}", DateTime.Now, SpeechFile));
 	}
-
-	//Parsing function for the messages coming from the action socket.
-	//Messages are in the form of "visible:0:1:2:4:5:6"
-	//which would mean that grid cells 0, 1, 2, 4, 5, and 6 are currently visible
-	/*private void parseActionSocket() {
-		//UnityEngine.Debug.Log (actionSocket.SocketContent);
-		visibleGridCells.Clear ();
-		string[] newVisibleGridCellsArray = actionSocket.SocketContent.Split(':');
-		foreach (string s in newVisibleGridCellsArray)
-		{
-			if ((s != null) && (s.Length > 0) && (s != "visible") && (s != "\n") && (s != "nothing"))
-			{
-				visibleGridCells.Add(Convert.ToInt32(s)+1);
-			}
-		}
-	}*/
 
 	//Offering a refinement
 	IEnumerator refinementSequence()
 	{
+        LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tRefinement Start:\t{1}", DateTime.Now, currentReferenceNumber));
 		timeSinceLastRefinement = 0f;
 		intGazeCtrl.changePhase(ReferencePhase.Refinement);
 		yield return StartCoroutine(SpeakAndWait("refine" + refinementBeginningIndex));
@@ -392,6 +462,7 @@ public class SandwichScenario_Oculus : Scenario
 		//go back to monitoring
 		intGazeCtrl.changePhase(ReferencePhase.Monitor);
 		timeSinceLastRefinement = 0f;
+        LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tRefinement End:\t{1}", DateTime.Now, currentReferenceNumber));
 	}
 
 	//Correcting the user when they make an incorrect action
@@ -435,5 +506,11 @@ public class SandwichScenario_Oculus : Scenario
 
 	public void OnApplicationQuit()
 	{
+        if (LogStream != null)
+        {
+            LogStream.WriteLine(String.Format("{0:HH:mm:ss.ffff}\tEnd of Log", DateTime.Now));
+            LogStream.Flush();
+            LogStream.Close();
+        }
 	}
 };

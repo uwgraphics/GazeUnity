@@ -250,8 +250,11 @@ public class SpeechController : AnimController
 			GoToState((int)SpeechState.PrepareSpeech);
 		}
 
-		int i = morphCtrl.GetMorphChannelIndex("VisemeAah");
-		morphCtrl.morphChannels[i].weight = 0f;
+        if (!roboSpeech)
+        {
+            int i = morphCtrl.GetMorphChannelIndex("VisemeAah");
+            morphCtrl.morphChannels[i].weight = 0f;
+        }
 	}
 	
 	protected virtual void Update_Speaking()
